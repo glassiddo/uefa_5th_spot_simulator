@@ -1,6 +1,6 @@
 # UEFA 5th Spot Simulator
 
-Simulate remaining UEFA club-competition matches (UCL / UEL / UECL) and see how association coefficients change for the **current season**, including which **two associations** would earn the extra Champions League berth(s) (“performance spots”, often referred to as the “5th spot”).
+Simulate remaining UEFA club-competition matches (UCL / UEL / UECL) and see how association coefficients change for the current season, including which two associations would earn the extra Champions League berth(s) ("performance spots", often referred to as the "5th spot").
 
 ## Run
 
@@ -27,6 +27,6 @@ Then open `http://127.0.0.1:8000/`.
 
 ## Notes
 
-- Built with **Codex** and **Claude Code**.
+- Built with Codex and Claude Code.
 - Development-only prompt/spec files and local reference materials (e.g. `CLAUDE.md`, `.claude/`, cached scrape output, PDFs) are intentionally not committed.
 
