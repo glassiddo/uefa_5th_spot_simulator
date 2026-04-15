@@ -80,8 +80,7 @@
         <p>Simulate UCL, UEL and UECL results to predict the two associations that would receive an extra spot in the UCL in the 26/27 season.</p>
       </div>
       <div class="header-actions">
-        <button id="reset-btn" class="secondary" type="button">Reset results</button>
-        <button id="refresh-btn" type="button">Recalculate</button>
+        <button id="reset-btn" type="button">Reset results</button>
       </div>
     </header>
 
@@ -119,7 +118,7 @@
   <script>
     const state = { snapshot:null, simulation:null, activeTab:"UCL", overrides:{}, advancers:{}, debounce:null };
     const tabs = [{key:"UCL",label:"UCL Bracket"},{key:"UEL",label:"UEL Bracket"},{key:"UECL",label:"UECL Bracket"},{key:"RANKINGS",label:"Association Rankings"}];
-    const els = { tabs:document.getElementById("tabs"), mainPanel:document.getElementById("main-panel"), rankings:document.getElementById("rankings"), rankStatus:document.getElementById("rank-status"), leaderPill:document.getElementById("leader-pill"), resetBtn:document.getElementById("reset-btn"), refreshBtn:document.getElementById("refresh-btn") };
+    const els = { tabs:document.getElementById("tabs"), mainPanel:document.getElementById("main-panel"), rankings:document.getElementById("rankings"), rankStatus:document.getElementById("rank-status"), leaderPill:document.getElementById("leader-pill"), resetBtn:document.getElementById("reset-btn") };
     const params = new URLSearchParams(location.search);
     const apiParam = params.get("api");
     const configuredBase = (window.APP_CONFIG && typeof window.APP_CONFIG.API_BASE === "string")
@@ -137,7 +136,7 @@
     function escapeHtml(text){return String(text).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll("\"","&quot;").replaceAll("'","&#39;")}
     function getKey(c,r,t1,t2,l){return [c,r,t1,t2,l].join("|")}
     function roundLabel(r,i){return r==="F"?"Final":`${roundNames[r]||r} ${i+1}`}
-    function readStorage(){try{const raw=JSON.parse(localStorage.getItem("uefa5spot.overrides")||"{}");if(raw&&typeof raw==="object"&&("overrides"in raw||"advancers"in raw)){state.overrides=raw.overrides||{};state.advancers=raw.advancers||{}}else{state.overrides=raw&&typeof raw==="object"?raw:{};state.advancers={}}}catch{state.overrides={};state.advancers={}}}
+    function readStorage(){state.overrides={};state.advancers={};localStorage.removeItem("uefa5spot.overrides");}
     function writeStorage(){localStorage.setItem("uefa5spot.overrides", JSON.stringify({overrides:state.overrides, advancers:state.advancers}))}
     function apiUrl(path){return `${API_BASE}${path}`;}
     function renderTabs(){els.tabs.innerHTML=tabs.map(t=>`<button type="button" class="tab-btn ${t.key===state.activeTab?"active":""}" data-tab="${t.key}">${t.label}</button>`).join("");els.tabs.querySelectorAll("[data-tab]").forEach(btn=>btn.addEventListener("click",()=>{state.activeTab=btn.dataset.tab;renderTabs();renderMain()}))}
@@ -237,10 +236,9 @@
     function onAdvancerChange(e){const select=e.target,key=select.dataset.advancerKey;if(!key)return;if(select.value)state.advancers[key]=select.value;else delete state.advancers[key];writeStorage();renderMain();scheduleRefresh()}
     function buildOverrides(){const payload=[],seen=new Set();for(const [key,entry] of Object.entries(state.overrides)){if(!entry)continue;payload.push({competition:entry.competition,round_name:entry.round_name,team1:entry.team1,team2:entry.team2,leg:entry.leg,home_score:entry.home_score,away_score:entry.away_score,advancer:state.advancers[key]||entry.advancer||null});seen.add(key)}for(const [key,advancer] of Object.entries(state.advancers)){if(seen.has(key)||!advancer)continue;const [competition,round_name,team1,team2,leg]=key.split("|");payload.push({competition,round_name,team1,team2,leg:Number(leg),advancer})}return payload}
     function scheduleRefresh(){if(state.debounce)window.clearTimeout(state.debounce);state.debounce=window.setTimeout(refreshSimulation,150)}
-    async function refreshSimulation(){els.rankStatus.textContent="Recalculating...";els.refreshBtn.disabled=true;try{const r=await fetch(apiUrl("/api/simulate"),{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({overrides:buildOverrides()})});if(!r.ok)throw new Error(`Simulation request failed: ${r.status}`);state.simulation=await r.json();sidebarRanks();if(state.activeTab==="RANKINGS")renderMain()}catch(err){els.rankStatus.textContent="Simulation error";console.error(err)}finally{els.refreshBtn.disabled=false}}
+    async function refreshSimulation(){els.rankStatus.textContent="Recalculating...";try{const r=await fetch(apiUrl("/api/simulate"),{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({overrides:buildOverrides()})});if(!r.ok)throw new Error(`Simulation request failed: ${r.status}`);state.simulation=await r.json();sidebarRanks();if(state.activeTab==="RANKINGS")renderMain()}catch(err){els.rankStatus.textContent="Simulation error";console.error(err)}}
     async function loadApp(){readStorage();renderTabs();try{const r=await fetch(apiUrl("/api/data"));if(!r.ok)throw new Error(`Snapshot request failed: ${r.status}`);state.snapshot=await r.json();renderMain();sidebarRanks();await refreshSimulation()}catch(err){els.mainPanel.innerHTML=`<p>Unable to load snapshot: ${escapeHtml(err.message||String(err))}</p>`;els.rankStatus.textContent="Load failed";console.error(err)}}
     els.resetBtn.addEventListener("click",()=>{state.overrides={};state.advancers={};localStorage.removeItem("uefa5spot.overrides");renderMain();scheduleRefresh()});
-    els.refreshBtn.addEventListener("click",()=>refreshSimulation());
     renderTabs();loadApp();
   </script>
 </body>
