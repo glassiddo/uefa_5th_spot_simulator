@@ -2,7 +2,9 @@
 
 Simulate remaining UEFA club-competition matches (UCL / UEL / UECL) and see how association coefficients change for the current season, including which two associations would earn the extra Champions League berth(s) ("performance spots", often referred to as the "5th spot").
 
-## Run
+Available in the link - https://uefa-ucl-extra-spot-simulator.onrender.com/
+
+## Run locally
 
 ```bash
 pip install -r requirements.txt
@@ -14,10 +16,6 @@ Then open `http://127.0.0.1:8000/`.
 ```bash
 python tests/test_engine.py
 ```
-
-## Hosting
-
-GitHub Pages can host the static UI, but you still need to host the FastAPI backend somewhere (Render/Fly/etc). Once you have a backend URL, open the Pages site with `?api=https://YOUR-BACKEND` (the UI reads the `api` query param).
 
 ## Sources
 
