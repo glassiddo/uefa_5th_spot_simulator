@@ -105,18 +105,33 @@
       </aside>
     </div>
 
-    <div class="footer">Fixture snapshot scraped once from Wikipedia and cached in <code>data/results_cache.json</code>.</div>
+    <div class="footer">
+      Results extracted from Wikipedia:
+      <a href="https://en.wikipedia.org/wiki/2025%E2%80%9326_UEFA_Champions_League" target="_blank" rel="noopener noreferrer">UCL</a>,
+      <a href="https://en.wikipedia.org/wiki/2025%E2%80%9326_UEFA_Europa_League" target="_blank" rel="noopener noreferrer">UEL</a>,
+      <a href="https://en.wikipedia.org/wiki/2025%E2%80%9326_UEFA_Conference_League" target="_blank" rel="noopener noreferrer">UECL</a>.
+      Created by Iddo Glass with Codex and Claude Code.
+      <a href="https://github.com/glassiddo/uefa_5th_spot_simulator" target="_blank" rel="noopener noreferrer">Source on GitHub</a>.
+    </div>
   </div>
 
+  <script src="./config.js"></script>
   <script>
     const state = { snapshot:null, simulation:null, activeTab:"UCL", overrides:{}, advancers:{}, debounce:null };
     const tabs = [{key:"UCL",label:"UCL Bracket"},{key:"UEL",label:"UEL Bracket"},{key:"UECL",label:"UECL Bracket"},{key:"RANKINGS",label:"Association Rankings"}];
     const els = { tabs:document.getElementById("tabs"), mainPanel:document.getElementById("main-panel"), rankings:document.getElementById("rankings"), rankStatus:document.getElementById("rank-status"), leaderPill:document.getElementById("leader-pill"), resetBtn:document.getElementById("reset-btn"), refreshBtn:document.getElementById("refresh-btn") };
     const params = new URLSearchParams(location.search);
     const apiParam = params.get("api");
+    const configuredBase = (window.APP_CONFIG && typeof window.APP_CONFIG.API_BASE === "string")
+      ? window.APP_CONFIG.API_BASE.trim()
+      : "";
     const API_BASE = apiParam
       ? apiParam.replace(/\/$/, "")
-      : (location.protocol === "file:" ? "http://127.0.0.1:8000" : "");
+      : (configuredBase ? configuredBase.replace(/\/$/, "") : (
+          location.protocol === "file:" || location.hostname === "localhost" || location.hostname === "127.0.0.1"
+            ? "http://127.0.0.1:8000"
+            : ""
+        ));
 
     const roundNames = {QF:"Quarterfinal",SF:"Semifinal",F:"Final"};
     function escapeHtml(text){return String(text).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll("\"","&quot;").replaceAll("'","&#39;")}
