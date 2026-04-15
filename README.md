@@ -16,18 +16,6 @@ Then open `http://127.0.0.1:8000/`.
 ```bash
 python tests/test_engine.py
 ```
-
-## Hosting
-
-GitHub Pages can host the static UI, but you still need to host the FastAPI backend somewhere. This repo includes a GitHub Pages workflow that deploys `frontend/` and injects a configured backend URL at deploy time.
-
-Quickstart:
-
-1. Deploy the backend (Render free tier is a simple option).
-2. Set `BACKEND_URL` as a GitHub Actions **variable** (repo Settings -> Secrets and variables -> Actions).
-3. Enable Pages (repo Settings -> Pages -> Source: GitHub Actions).
-
-Full steps: see `docs/DEPLOYMENT.md`.
 ## Sources
 
 - UEFA regulations (Annex D: Coefficient Ranking System): https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2025/26/Annex-D-Coefficient-Ranking-System-Online
