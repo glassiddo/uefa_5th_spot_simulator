@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Local caches / generated data
+data/results_cache.json
+
+# AI/dev tooling (keep private)
+.claude/
+CLAUDE.md
+claude.md
+
+# Local reference files (keep private)
+annex_d_uefa_regulations.pdf
+
+# Node (if ever added)
+node_modules/
+

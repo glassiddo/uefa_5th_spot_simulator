@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UEFA Champions League Extra Spot Simulator</title>
+  <style>
+    :root{--bg:#f4f1ea;--panel:rgba(255,255,255,.88);--line:rgba(15,23,42,.08);--text:#172033;--muted:#667085;--accent:#1f3a5f;--good:#0f8a5f;--warn:#b26a00;--shadow:0 18px 48px rgba(15,23,42,.08)}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at top left,#fff7e8 0,#f4f1ea 38%,#edf2f7 100%)}
+    .wrap{max-width:1760px;margin:0 auto;padding:24px 20px 28px}
+    header,.panel,.rank-card,.round-column,.match-card,details,.league-summary{border:1px solid var(--line);border-radius:16px;background:var(--panel);box-shadow:var(--shadow)}
+    header{display:flex;justify-content:space-between;gap:20px;align-items:flex-end;padding:24px;margin-bottom:20px}
+    .title h1{margin:0 0 8px;font-size:clamp(1.7rem,3vw,2.9rem);letter-spacing:-.04em}
+    .title{flex:1;min-width:0}
+    .title p{margin:0;color:var(--muted);max-width:none;line-height:1.55}
+    .header-actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-end}
+    button{border:1px solid transparent;border-radius:999px;padding:11px 16px;font-weight:700;cursor:pointer;color:#fff;background:var(--accent);box-shadow:0 8px 18px rgba(31,58,95,.14)}
+    button.secondary{color:var(--text);background:rgba(255,255,255,.72);border-color:var(--line);box-shadow:none}
+    button:disabled{opacity:.65;cursor:progress}
+    .tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:20px}
+    .tab-btn{width:100%;border:1px solid var(--line);background:rgba(255,255,255,.68);color:var(--text);padding:15px 17px;border-radius:16px;text-align:left;box-shadow:none}
+    .tab-btn.active{border-color:rgba(31,58,95,.18);background:#fff}
+    .grid{display:grid;grid-template-columns:minmax(0,2.8fr) minmax(260px,.55fr);gap:18px;align-items:start}
+    .panel-inner{padding:22px}
+    .rank-card{position:sticky;top:20px;max-height:calc(100vh - 40px);overflow:auto}
+    .section-title{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:16px}
+    .section-title h2{margin:0;font-size:1.1rem;letter-spacing:-.02em}
+    .status,.section-title span,.muted{color:var(--muted);font-size:.9rem}
+    details{overflow:hidden;margin-bottom:16px}
+    summary{list-style:none;cursor:pointer;padding:16px 18px;font-weight:800}
+    summary::-webkit-details-marker{display:none}
+    .details-body{padding:0 18px 18px}
+    .table,.sidebar-table,.full-ranking{width:100%;border-collapse:collapse}
+    .table th,.table td,.sidebar-table th,.sidebar-table td,.full-ranking th,.full-ranking td{padding:12px 10px;border-bottom:1px solid rgba(102,112,133,.14);text-align:left}
+    .table th,.sidebar-table th,.full-ranking th{color:var(--muted);text-transform:uppercase;letter-spacing:.04em;font-size:.74rem;font-weight:700}
+    .bracket{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .round-column{overflow:hidden}
+    .round-column header{margin:0;padding:16px 18px;background:rgba(255,255,255,.5)}
+    .round-column header h3{margin:0;font-size:1rem}
+    .round-column header p{margin:5px 0 0;color:var(--muted);font-size:.84rem;line-height:1.45}
+    .round-body{padding:16px;display:grid;gap:14px}
+    .match-card{padding:16px}
+    .match-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:14px}
+    .match-subtitle{color:var(--muted);font-size:.76rem;text-transform:uppercase;letter-spacing:.06em}
+    .pill{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;background:rgba(102,112,133,.12);color:var(--muted);font-size:.82rem;white-space:nowrap}
+    .pill.good{color:#08664a;background:rgba(15,138,95,.12)}
+    .pill.warn{color:#8a5700;background:rgba(178,106,0,.14)}
+    .pill.locked{color:#8a1f1f;background:rgba(239,68,68,.1)}
+    .leg-grid{display:grid;gap:10px}
+    .leg-panel{border:1px solid rgba(102,112,133,.15);border-radius:14px;padding:14px;background:rgba(255,255,255,.72)}
+    .leg-panel .label{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:.76rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px}
+    .home-away{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:center}
+    .home-away .side{color:var(--muted);font-size:.8rem;line-height:1.35}
+    .home-away .side strong{display:block;color:var(--text);font-size:.94rem;margin-top:3px}
+    .score-row{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;margin-top:12px}
+    .score-row input,.advancer-select{width:100%;border:1px solid rgba(102,112,133,.22);background:#fff;color:var(--text);padding:11px 12px;border-radius:12px;font-size:.96rem}
+    .score-row input:disabled{background:rgba(245,247,250,.92);color:#64748b}
+    .result-box{margin-top:12px;padding:10px 12px;border-radius:12px;background:rgba(102,112,133,.14)}
+    .advancer-row{margin-top:12px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+    .advancer-row label{color:var(--muted);font-size:.82rem}
+    .advancer-row .advancer-select{min-width:190px}
+    .empty-slot{border:1px dashed rgba(102,112,133,.22);border-radius:16px;padding:22px;color:var(--muted);background:rgba(255,255,255,.5)}
+    .league-summary{padding:14px 16px;color:var(--muted);margin-bottom:16px}
+    .rank-row.top1,.rank-row.top2{background:rgba(15,138,95,.12)}
+    .spot-badge{display:inline-flex;align-items:center;gap:6px;margin-left:10px;padding:4px 10px;border-radius:999px;background:rgba(15,138,95,.18);color:#075d44;font-size:.72rem;font-weight:900;letter-spacing:.02em}
+    .rank-tag{display:inline-flex;align-items:center;padding:5px 10px;border-radius:999px;font-size:.76rem;font-weight:700;margin-left:8px}
+    .rank-tag.spot{color:#2f2200;background:#f4d37a}
+    .rank-tag.alt{color:#1f3a5f;background:rgba(31,58,95,.12)}
+    .footer{margin-top:22px;color:var(--muted);font-size:.85rem;text-align:center}
+    @media (max-width:1100px){.grid{grid-template-columns:1fr}.bracket{grid-template-columns:1fr}.rank-card{position:static;max-height:none}}
+    @media (max-width:760px){.wrap{padding:16px}header{padding:20px 18px;flex-direction:column;align-items:stretch}.tabs{grid-template-columns:1fr 1fr}.home-away{grid-template-columns:1fr}.match-head{flex-direction:column;align-items:flex-start}.score-row{grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="title">
+        <h1>UEFA Champions League Extra Spot Simulator</h1>
+        <p>Simulate UCL, UEL and UECL results to predict the two associations that would receive an extra spot in the UCL in the 26/27 season.</p>
+      </div>
+      <div class="header-actions">
+        <button id="reset-btn" class="secondary" type="button">Reset results</button>
+        <button id="refresh-btn" type="button">Recalculate</button>
+      </div>
+    </header>
+
+    <div class="tabs" id="tabs"></div>
+
+    <div class="grid">
+      <div class="panel">
+        <div class="panel-inner" id="main-panel"></div>
+      </div>
+
+      <aside class="rank-card">
+        <div class="panel-inner">
+          <div class="section-title">
+            <div>
+              <h2>Association Rankings</h2>
+              <div class="status" id="rank-status">Loading...</div>
+            </div>
+          </div>
+          <div id="rankings"></div>
+        </div>
+      </aside>
+    </div>
+
+    <div class="footer">Fixture snapshot scraped once from Wikipedia and cached in <code>data/results_cache.json</code>.</div>
+  </div>
+
+  <script>
+    const state = { snapshot:null, simulation:null, activeTab:"UCL", overrides:{}, advancers:{}, debounce:null };
+    const tabs = [{key:"UCL",label:"UCL Bracket"},{key:"UEL",label:"UEL Bracket"},{key:"UECL",label:"UECL Bracket"},{key:"RANKINGS",label:"Association Rankings"}];
+    const els = { tabs:document.getElementById("tabs"), mainPanel:document.getElementById("main-panel"), rankings:document.getElementById("rankings"), rankStatus:document.getElementById("rank-status"), leaderPill:document.getElementById("leader-pill"), resetBtn:document.getElementById("reset-btn"), refreshBtn:document.getElementById("refresh-btn") };
+    const API_BASE = location.protocol === "file:" ? "http://127.0.0.1:8000" : "";
+
+    const roundNames = {QF:"Quarterfinal",SF:"Semifinal",F:"Final"};
+    function escapeHtml(text){return String(text).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll("\"","&quot;").replaceAll("'","&#39;")}
+    function getKey(c,r,t1,t2,l){return [c,r,t1,t2,l].join("|")}
+    function roundLabel(r,i){return r==="F"?"Final":`${roundNames[r]||r} ${i+1}`}
+    function readStorage(){try{const raw=JSON.parse(localStorage.getItem("uefa5spot.overrides")||"{}");if(raw&&typeof raw==="object"&&("overrides"in raw||"advancers"in raw)){state.overrides=raw.overrides||{};state.advancers=raw.advancers||{}}else{state.overrides=raw&&typeof raw==="object"?raw:{};state.advancers={}}}catch{state.overrides={};state.advancers={}}}
+    function writeStorage(){localStorage.setItem("uefa5spot.overrides", JSON.stringify({overrides:state.overrides, advancers:state.advancers}))}
+    function apiUrl(path){return `${API_BASE}${path}`;}
+    function renderTabs(){els.tabs.innerHTML=tabs.map(t=>`<button type="button" class="tab-btn ${t.key===state.activeTab?"active":""}" data-tab="${t.key}">${t.label}</button>`).join("");els.tabs.querySelectorAll("[data-tab]").forEach(btn=>btn.addEventListener("click",()=>{state.activeTab=btn.dataset.tab;renderTabs();renderMain()}))}
+    function toScorePair(v){if(!v)return null;if(Array.isArray(v)&&v.length===2)return [Number(v[0]),Number(v[1])];if(typeof v==="object"&&v.home_score!=null&&v.away_score!=null)return [Number(v.home_score),Number(v.away_score)];return null}
+    function resolveScore(c,r,tie,l){const base=l===1?tie.baseLeg1:tie.baseLeg2;const ov=state.overrides[getKey(c,r,tie.team1,tie.team2,l)];return base||toScorePair(ov)||null}
+    function selectedAdvancer(c,r,tie){const k1=getKey(c,r,tie.team1,tie.team2,1),k2=getKey(c,r,tie.team1,tie.team2,2);return state.advancers[k1]||state.overrides[k1]?.advancer||state.overrides[k2]?.advancer||""}
+    function resultFor(c,r,tie){
+      const s1=resolveScore(c,r,tie,1),s2=tie.legCount===2?resolveScore(c,r,tie,2):null,complete=Boolean(s1)&&(tie.legCount===1||Boolean(s2)),qualifier=selectedAdvancer(c,r,tie)||"";
+      if(!s1&&!s2)return{agg:"pending",draw:false,winner:qualifier||null,s1,s2};
+      if(tie.legCount===1){
+        const agg=`${s1[0]}-${s1[1]}`;
+        if(!complete)return{agg,draw:false,winner:qualifier||null,s1,s2};
+        if(s1[0]>s1[1])return{agg,draw:false,winner:tie.team1||qualifier||null,s1,s2};
+        if(s1[1]>s1[0])return{agg,draw:false,winner:tie.team2||qualifier||null,s1,s2};
+        return{agg,draw:true,winner:qualifier||null,s1,s2};
+      }
+      const t1=(s1?s1[0]:0)+(s2?s2[0]:0),t2=(s1?s1[1]:0)+(s2?s2[1]:0),agg=`${t1}-${t2}`;
+      if(!complete)return{agg,draw:false,winner:qualifier||null,s1,s2};
+      if(t1>t2)return{agg,draw:false,winner:tie.team1||qualifier||null,s1,s2};
+      if(t2>t1)return{agg,draw:false,winner:tie.team2||qualifier||null,s1,s2};
+      return{agg,draw:true,winner:qualifier||null,s1,s2}
+    }
+    function tieWinner(c,r,tie){const res=resultFor(c,r,tie);return res.winner||tie.baseWinner||null}
+    function normActual(c,r,t,i){
+      const baseWinner = t?.winner==="team1" ? (t.team1||null)
+        : t?.winner==="team2" ? (t.team2||null)
+        : (t?.winner||null);
+      const tie={competition:c,roundName:r,index:i,legCount:r==="F"?1:2,team1:t.team1||"",team2:t.team2||"",displayTeam1:t.team1||"",displayTeam2:t.team2||"",baseLeg1:Array.isArray(t.leg1)?t.leg1:null,baseLeg2:r==="F"?null:(Array.isArray(t.leg2)?t.leg2:null),lockedLeg1:Array.isArray(t.leg1),lockedLeg2:Array.isArray(t.leg2),sourceLabel:roundLabel(r,i),baseWinner};
+      tie.winner=tieWinner(c,r,tie);
+      return tie;
+    }
+    function buildDerived(c,r,l,rt,i){const t1=l?.winner||"",t2=rt?.winner||"";return{competition:c,roundName:r,index:i,legCount:r==="F"?1:2,team1:t1,team2:t2,displayTeam1:t1||"TBD",displayTeam2:t2||"TBD",baseLeg1:null,baseLeg2:null,lockedLeg1:false,lockedLeg2:false,sourceLabel:roundLabel(r,i),baseWinner:null}}
+    function normalizeName(value){return String(value||"").normalize("NFKC").trim().toLowerCase().replace(/\s+/g," ")}
+    function pairKey(a,b){const left=normalizeName(a),right=normalizeName(b);return left<=right?`${left}|${right}`:`${right}|${left}`}
+    function samePair(a,b,c,d){return pairKey(a,b)===pairKey(c,d)}
+    function reverseScorePair(score){const pair=toScorePair(score);return pair?[pair[1],pair[0]]:null}
+    function findActualTie(ties,team1,team2){return (Array.isArray(ties)?ties:[]).find(t=>samePair(t.team1,t.team2,team1,team2))||null}
+    function roundModel(c,r,ties,prevRound){
+      const source=Array.isArray(ties)?ties:[];
+      if(!Array.isArray(prevRound)||prevRound.length===0){
+        return source.map((tie,i)=>normActual(c,r,tie,i));
+      }
+      const derived=[];
+      for(let i=0;i<prevRound.length;i+=2){
+        const left=prevRound[i],right=prevRound[i+1];
+        if(!left&&!right){
+          continue;
+        }
+        const tie=buildDerived(c,r,left,right,derived.length);
+        const actual=findActualTie(source,tie.team1,tie.team2);
+        if(actual){
+          const sameOrder=normalizeName(actual.team1)===normalizeName(tie.team1);
+          tie.baseLeg1=sameOrder?toScorePair(actual.leg1):reverseScorePair(actual.leg1);
+           tie.baseLeg2=r==="F"?null:(sameOrder?toScorePair(actual.leg2):reverseScorePair(actual.leg2));
+           tie.lockedLeg1=Boolean(tie.baseLeg1);
+           tie.lockedLeg2=Boolean(tie.baseLeg2);
+           tie.baseWinner=(actual.winner==="team1"?actual.team1:actual.winner==="team2"?actual.team2:(actual.winner||null));
+         }
+        tie.winner=tieWinner(c,r,tie);
+        derived.push(tie);
+      }
+      return derived;
+    }
+    function renderLeagueSummary(comp){return ``}
+    function legPanel(c,r,tie,n){const s=resolveScore(c,r,tie,n),k=getKey(c,r,tie.team1,tie.team2,n),locked=n===1?Boolean(tie.lockedLeg1):Boolean(tie.lockedLeg2),label=r==="F"?"Final":`Leg ${n}`;return`<div class="leg-panel"><div class="label"><span>${label}</span>${locked?'<span class="pill locked">Fixed</span>':''}</div><div class="home-away"><div class="side">Team 1<strong>${escapeHtml(tie.displayTeam1||tie.team1||"TBD")}</strong></div><span class="sep">vs</span><div class="side">Team 2<strong>${escapeHtml(tie.displayTeam2||tie.team2||"TBD")}</strong></div></div><div class="score-row"><input data-key="${escapeHtml(k)}" data-team1="${escapeHtml(tie.team1)}" data-team2="${escapeHtml(tie.team2)}" data-leg="${n}" data-comp="${c}" data-round="${r}" type="number" min="0" value="${s?s[0]:""}" placeholder="-" ${locked?"disabled":""}/><span class="sep">-</span><input data-key="${escapeHtml(k)}" data-team1="${escapeHtml(tie.team1)}" data-team2="${escapeHtml(tie.team2)}" data-leg="${n}" data-comp="${c}" data-round="${r}" type="number" min="0" value="${s?s[1]:""}" placeholder="-" ${locked?"disabled":""}/></div></div>`}
+    function tieCard(c,tie){
+      const res=resultFor(c,tie.roundName,tie);
+      const ready=Boolean(tie.team1&&tie.team2);
+      const partial=Boolean(tie.team1||tie.team2);
+      const complete=Boolean(res.s1)&&(tie.legCount===1||Boolean(res.s2));
+      const lockedOutcome=Boolean(tie.baseWinner);
+      const needsQualifier=Boolean(res.draw||!complete);
+      const showSelect=ready&&!lockedOutcome&&needsQualifier;
+
+      const key=getKey(c,tie.roundName,tie.team1,tie.team2,1);
+      const selectLabel=tie.roundName==="F"?"Select winner":"Select qualifier";
+      const adv=showSelect?`<select class="advancer-select" data-advancer-key="${escapeHtml(key)}"><option value="">${selectLabel}</option><option value="${escapeHtml(tie.team1)}" ${selectedAdvancer(c,tie.roundName,tie)===tie.team1?"selected":""}>${escapeHtml(tie.displayTeam1||tie.team1)}</option><option value="${escapeHtml(tie.team2)}" ${selectedAdvancer(c,tie.roundName,tie)===tie.team2?"selected":""}>${escapeHtml(tie.displayTeam2||tie.team2)}</option></select>`:``;
+
+      const body=partial?`<div class="leg-grid">${legPanel(c,tie.roundName,tie,1)}${tie.legCount===2?legPanel(c,tie.roundName,tie,2):""}</div>`:`<div class="empty-slot"></div>`;
+
+      const aggPill=res.agg&&res.agg!=="pending"?`<span class="pill">Agg ${escapeHtml(res.agg)}</span>`:``;
+      const winner=tie.winner||"";
+      const winnerPill=winner?`<span class="pill good">${escapeHtml(winner)}</span>`:``;
+      const label=tie.roundName==="F"?"Winner":"Advancing club";
+
+      return`<article class="match-card"><div class="match-head"><div class="match-subtitle">${escapeHtml(tie.sourceLabel)}</div>${aggPill}</div>${body}<div class="advancer-row"><label>${label}</label>${adv}${winnerPill}</div></article>`;
+    }
+    function bracketModel(c,comp){const k=comp.knockout||{},qf=roundModel(c,"QF",k.QF||[],null),sf=roundModel(c,"SF",k.SF||[],qf),f=roundModel(c,"F",k.F||[],sf);return{qf,sf,f}}
+    function roundColumn(c,title,subtitle,ties){return`<section class="round-column"><header><h3>${escapeHtml(title)}</h3><p>${escapeHtml(subtitle)}</p></header><div class="round-body">${ties.length?ties.map(t=>tieCard(c,t)).join(""):""}</div></section>`}
+    function rankingsTable(rows,compact){
+      const clean=(rows||[]).filter(r=>r&&r.association_name);
+      if(!clean.length)return`<div class="empty-slot">Rankings will appear after the first simulation run.</div>`;
+      return`<table class="${compact?"sidebar-table":"full-ranking"}"><thead><tr><th>Rank</th><th>Association</th><th>Avg pts</th>${compact?"":"<th>Clubs</th><th>Total pts</th>"}</tr></thead><tbody>${clean.map((row,i)=>{const rank=i+1,rowClass=rank<=2?"top1":"";const badge=(!compact&&rank<=2)?`<span class="spot-badge">Extra UCL spot</span>`:``;return`<tr class="rank-row ${rowClass}"><td>${rank}</td><td>${escapeHtml(row.association_name)}${badge}</td><td>${Number(row.average_points).toFixed(3)}</td>${compact?"":`<td>${row.clubs_entered}</td><td>${Number(row.total_points).toFixed(3)}</td>`}</tr>`}).join("")}</tbody></table>`}
+    function sidebarRanks(){const rows=state.simulation?.association_rankings||[],top5=rows.slice(0,5);els.rankStatus.textContent=state.simulation?"Live association rankings":"Loading cached snapshot...";els.rankings.innerHTML=rankingsTable(top5,true)}
+    function renderMain(){if(state.activeTab==="RANKINGS"){els.mainPanel.innerHTML=`<div class="section-title"><h2>Association Rankings</h2><span>Full ranking table</span></div>${rankingsTable(state.simulation?.association_rankings||[],false)}`;return}const comp=state.snapshot?.[state.activeTab.toLowerCase()];if(!comp){els.mainPanel.innerHTML="<p>Loading...</p>";return}const b=bracketModel(state.activeTab,comp);els.mainPanel.innerHTML=`<div class="section-title"><h2>${state.activeTab} Bracket</h2><span>Quarterfinals, semifinals and final only</span></div>${renderLeagueSummary(comp)}<div class="bracket">${roundColumn(state.activeTab,"Quarterfinals","Current results",b.qf)}${roundColumn(state.activeTab,"Semifinals","Auto-derived from QF winners",b.sf)}${roundColumn(state.activeTab,"Final","Auto-derived from SF winners",b.f)}</div>`;els.mainPanel.querySelectorAll("input[type='number']").forEach(i=>i.addEventListener("input",onScoreInput));els.mainPanel.querySelectorAll("select[data-advancer-key]").forEach(s=>s.addEventListener("change",onAdvancerChange))}
+    function onScoreInput(e){const input=e.target;if(input.disabled)return;const key=input.dataset.key,comp=input.dataset.comp,roundName=input.dataset.round,team1=input.dataset.team1,team2=input.dataset.team2,leg=Number(input.dataset.leg),matching=els.mainPanel.querySelectorAll(`input[data-key="${CSS.escape(key)}"]`),home=matching[0]?.value?.trim(),away=matching[1]?.value?.trim();if(home===""&&away===""){delete state.overrides[key]}else if(home!==""&&away!==""){state.overrides[key]={competition:comp,round_name:roundName,team1,team2,leg,home_score:Number(home),away_score:Number(away)}}else{return}writeStorage();renderMain();scheduleRefresh()}
+    function onAdvancerChange(e){const select=e.target,key=select.dataset.advancerKey;if(!key)return;if(select.value)state.advancers[key]=select.value;else delete state.advancers[key];writeStorage();renderMain();scheduleRefresh()}
+    function buildOverrides(){const payload=[],seen=new Set();for(const [key,entry] of Object.entries(state.overrides)){if(!entry)continue;payload.push({competition:entry.competition,round_name:entry.round_name,team1:entry.team1,team2:entry.team2,leg:entry.leg,home_score:entry.home_score,away_score:entry.away_score,advancer:state.advancers[key]||entry.advancer||null});seen.add(key)}for(const [key,advancer] of Object.entries(state.advancers)){if(seen.has(key)||!advancer)continue;const [competition,round_name,team1,team2,leg]=key.split("|");payload.push({competition,round_name,team1,team2,leg:Number(leg),advancer})}return payload}
+    function scheduleRefresh(){if(state.debounce)window.clearTimeout(state.debounce);state.debounce=window.setTimeout(refreshSimulation,150)}
+    async function refreshSimulation(){els.rankStatus.textContent="Recalculating...";els.refreshBtn.disabled=true;try{const r=await fetch(apiUrl("/api/simulate"),{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({overrides:buildOverrides()})});if(!r.ok)throw new Error(`Simulation request failed: ${r.status}`);state.simulation=await r.json();sidebarRanks();if(state.activeTab==="RANKINGS")renderMain()}catch(err){els.rankStatus.textContent="Simulation error";console.error(err)}finally{els.refreshBtn.disabled=false}}
+    async function loadApp(){readStorage();renderTabs();try{const r=await fetch(apiUrl("/api/data"));if(!r.ok)throw new Error(`Snapshot request failed: ${r.status}`);state.snapshot=await r.json();renderMain();sidebarRanks();await refreshSimulation()}catch(err){els.mainPanel.innerHTML=`<p>Unable to load snapshot: ${escapeHtml(err.message||String(err))}</p>`;els.rankStatus.textContent="Load failed";console.error(err)}}
+    els.resetBtn.addEventListener("click",()=>{state.overrides={};state.advancers={};localStorage.removeItem("uefa5spot.overrides");renderMain();scheduleRefresh()});
+    els.refreshBtn.addEventListener("click",()=>refreshSimulation());
+    renderTabs();loadApp();
+  </script>
+</body>
+</html>
