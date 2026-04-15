@@ -1,12 +1,16 @@
 """
 One-time Wikipedia scraper for 2025-26 UEFA competition data.
-Usage:  python backend/scraper.py
-Output: data/results_cache.json
+Usage:
+  python backend/scraper.py
+  python backend/scraper.py --comp ucl --phase knockout --write-snapshot
+Output: data/results_cache.json (always)
+Optional: data/results_snapshot.json (with --write-snapshot)
 
 Scrapes qualifying rounds, league phase, and knockout phase for
 UCL, UEL, and UECL from Wikipedia.
 """
 
+import argparse
 import json
 import re
 import sys
@@ -295,48 +299,99 @@ def parse_knockout(soup: BeautifulSoup) -> dict:
 # Main
 # ---------------------------------------------------------------------------
 
-def scrape_competition(comp: str) -> dict:
-    print(f"\n=== {comp.upper()} ===")
-    urls = URLS[comp]
-
-    print("Qualifying...")
-    qualifying = parse_qualifying(fetch_page(urls["qualifying"]))
-    for rnd, ties in qualifying.items():
-        print(f"  {rnd}: {len(ties)} ties")
-
-    print("League phase...")
-    league_phase = parse_league_phase(fetch_page(urls["league_phase"]))
-    print(f"  {len(league_phase)} teams")
-
-    print("Knockout phase...")
-    knockout = parse_knockout(fetch_page(urls["knockout"]))
-    for rnd, ties in knockout.items():
-        played = sum(1 for t in ties if t.get("leg2_played"))
-        print(f"  {rnd}: {len(ties)} ties ({played} fully played)")
-
+def _empty_dataset() -> dict:
     return {
-        "qualifying": qualifying,
-        "league_phase": league_phase,
-        "knockout": knockout,
+        "season": "2025-26",
+        "ucl": {"qualifying": {}, "league_phase": [], "knockout": {}},
+        "uel": {"qualifying": {}, "league_phase": [], "knockout": {}},
+        "uecl": {"qualifying": {}, "league_phase": [], "knockout": {}},
     }
+
+
+def _load_existing(cache_path: Path, snapshot_path: Path) -> dict:
+    if cache_path.exists():
+        with cache_path.open("r", encoding="utf-8") as f:
+            return json.load(f)
+    if snapshot_path.exists():
+        with snapshot_path.open("r", encoding="utf-8") as f:
+            return json.load(f)
+    return _empty_dataset()
+
+
+def _scrape_phase(comp: str, phase: str):
+    urls = URLS[comp]
+    if phase == "qualifying":
+        return parse_qualifying(fetch_page(urls["qualifying"]))
+    if phase == "league_phase":
+        return parse_league_phase(fetch_page(urls["league_phase"]))
+    if phase == "knockout":
+        return parse_knockout(fetch_page(urls["knockout"]))
+    raise ValueError(f"Unknown phase: {phase}")
+
+
+def _print_phase_summary(phase: str, value) -> None:
+    if phase == "qualifying":
+        for rnd, ties in value.items():
+            print(f"  {rnd}: {len(ties)} ties")
+        return
+    if phase == "league_phase":
+        print(f"  {len(value)} teams")
+        return
+    if phase == "knockout":
+        for rnd, ties in value.items():
+            played = sum(1 for t in ties if t.get("leg2_played"))
+            print(f"  {rnd}: {len(ties)} ties ({played} fully played)")
+        return
 
 
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
+
+    parser = argparse.ArgumentParser(description="Scrape 2025-26 UEFA competition data from Wikipedia.")
+    parser.add_argument("--comp", choices=["all", "ucl", "uel", "uecl"], default="all",
+                        help="Competition to update (default: all).")
+    parser.add_argument("--phase", choices=["all", "qualifying", "league_phase", "knockout"], default="all",
+                        help="Phase to update (default: all).")
+    parser.add_argument("--write-snapshot", action="store_true",
+                        help="Also write data/results_snapshot.json (committed dataset).")
+    args = parser.parse_args()
+
     print("UEFA 2025-26 Coefficient Data Scraper")
     print("Source: Wikipedia (en.wikipedia.org)")
     print("=" * 50)
 
-    data = {"season": "2025-26"}
-    for comp in ["ucl", "uel", "uecl"]:
-        data[comp] = scrape_competition(comp)
+    base_dir = Path(__file__).resolve().parent.parent
+    cache_path = base_dir / "data" / "results_cache.json"
+    snapshot_path = base_dir / "data" / "results_snapshot.json"
 
-    out_path = Path(__file__).parent.parent / "data" / "results_cache.json"
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(out_path, "w", encoding="utf-8") as f:
+    data = _load_existing(cache_path=cache_path, snapshot_path=snapshot_path)
+    if not isinstance(data, dict):
+        data = _empty_dataset()
+
+    data["season"] = "2025-26"
+
+    comps = ["ucl", "uel", "uecl"] if args.comp == "all" else [args.comp]
+    phases = ["qualifying", "league_phase", "knockout"] if args.phase == "all" else [args.phase]
+
+    for comp in comps:
+        print(f"\n=== {comp.upper()} ===")
+        data.setdefault(comp, {"qualifying": {}, "league_phase": [], "knockout": {}})
+        for phase in phases:
+            label = phase.replace("_", " ").title()
+            print(f"{label}...")
+            value = _scrape_phase(comp, phase)
+            data[comp][phase] = value
+            _print_phase_summary(phase, value)
+
+    cache_path.parent.mkdir(parents=True, exist_ok=True)
+    with cache_path.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"\nSaved cache to {cache_path}")
 
-    print(f"\nSaved to {out_path}")
+    if args.write_snapshot:
+        with snapshot_path.open("w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"Saved snapshot to {snapshot_path}")
 
 
 if __name__ == "__main__":

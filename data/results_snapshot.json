@@ -1959,8 +1959,11 @@
           "team1_country": "Spain",
           "team2": "Bayern Munich",
           "team2_country": "Germany",
-          "winner": null,
-          "aggregate": null,
+          "winner": "team2",
+          "aggregate": [
+            4,
+            6
+          ],
           "agg_aet": false,
           "agg_pens": null,
           "leg1": [
@@ -1969,10 +1972,13 @@
           ],
           "leg1_aet": false,
           "leg1_pens": null,
-          "leg2": null,
+          "leg2": [
+            3,
+            4
+          ],
           "leg2_aet": false,
           "leg2_pens": null,
-          "leg2_played": false
+          "leg2_played": true
         },
         {
           "team1": "Barcelona",
@@ -2005,8 +2011,11 @@
           "team1_country": "Portugal",
           "team2": "Arsenal",
           "team2_country": "England",
-          "winner": null,
-          "aggregate": null,
+          "winner": "team2",
+          "aggregate": [
+            0,
+            1
+          ],
           "agg_aet": false,
           "agg_pens": null,
           "leg1": [
@@ -2015,13 +2024,51 @@
           ],
           "leg1_aet": false,
           "leg1_pens": null,
+          "leg2": [
+            0,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "SF": [
+        {
+          "team1": "Paris Saint-Germain",
+          "team1_country": "France",
+          "team2": "Bayern Munich",
+          "team2_country": "Germany",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": null,
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": null,
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": false
+        },
+        {
+          "team1": "Atlético Madrid",
+          "team1_country": "Spain",
+          "team2": "Arsenal",
+          "team2_country": "England",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": null,
+          "leg1_aet": false,
+          "leg1_pens": null,
           "leg2": null,
           "leg2_aet": false,
           "leg2_pens": null,
           "leg2_played": false
         }
-      ],
-      "SF": []
+      ]
     }
   },
   "uel": {
