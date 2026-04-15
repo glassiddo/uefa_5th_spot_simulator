@@ -11,6 +11,14 @@ python backend/main.py
 
 Then open `http://127.0.0.1:8000/`.
 
+```bash
+python tests/test_engine.py
+```
+
+## Hosting
+
+GitHub Pages can host the static UI, but you still need to host the FastAPI backend somewhere (Render/Fly/etc). Once you have a backend URL, open the Pages site with `?api=https://YOUR-BACKEND` (the UI reads the `api` query param).
+
 ## Sources
 
 - UEFA regulations (Annex D: Coefficient Ranking System): https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2025/26/Annex-D-Coefficient-Ranking-System-Online
@@ -29,4 +37,4 @@ Then open `http://127.0.0.1:8000/`.
 
 - Built with Codex and Claude Code.
 - Development-only prompt/spec files and local reference materials (e.g. `CLAUDE.md`, `.claude/`, cached scrape output, PDFs) are intentionally not committed.
-
+- The repo includes a `data/results_snapshot.json` dataset; you can refresh locally by running `python backend/scraper.py` (writes `data/results_cache.json`, which stays uncommitted).

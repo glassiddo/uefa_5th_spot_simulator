@@ -112,7 +112,11 @@
     const state = { snapshot:null, simulation:null, activeTab:"UCL", overrides:{}, advancers:{}, debounce:null };
     const tabs = [{key:"UCL",label:"UCL Bracket"},{key:"UEL",label:"UEL Bracket"},{key:"UECL",label:"UECL Bracket"},{key:"RANKINGS",label:"Association Rankings"}];
     const els = { tabs:document.getElementById("tabs"), mainPanel:document.getElementById("main-panel"), rankings:document.getElementById("rankings"), rankStatus:document.getElementById("rank-status"), leaderPill:document.getElementById("leader-pill"), resetBtn:document.getElementById("reset-btn"), refreshBtn:document.getElementById("refresh-btn") };
-    const API_BASE = location.protocol === "file:" ? "http://127.0.0.1:8000" : "";
+    const params = new URLSearchParams(location.search);
+    const apiParam = params.get("api");
+    const API_BASE = apiParam
+      ? apiParam.replace(/\/$/, "")
+      : (location.protocol === "file:" ? "http://127.0.0.1:8000" : "");
 
     const roundNames = {QF:"Quarterfinal",SF:"Semifinal",F:"Final"};
     function escapeHtml(text){return String(text).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll("\"","&quot;").replaceAll("'","&#39;")}

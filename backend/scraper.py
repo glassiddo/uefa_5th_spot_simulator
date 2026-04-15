@@ -16,7 +16,7 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-UA = "UEFA-Coefficient-Simulator/1.0 (educational, github/private)"
+UA = "UEFA-5th-Spot-Simulator/1.0 (educational; https://github.com/glassiddo/uefa_5th_spot_simulator)"
 DELAY = 1.5  # seconds between requests
 
 URLS = {

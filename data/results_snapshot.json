@@ -1,0 +1,8108 @@
+{
+  "season": "2025-26",
+  "ucl": {
+    "qualifying": {
+      "Q1": [
+        {
+          "team1": "Žalgiris",
+          "team1_country": "Lithuania",
+          "team2": "Hamrun Spartans",
+          "team2_country": "Malta",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            10,
+            11
+          ],
+          "leg1": [
+            2,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "KuPS",
+          "team1_country": "Finland",
+          "team2": "Milsami Orhei",
+          "team2_country": "Moldova",
+          "winner": "team1",
+          "aggregate": [
+            1,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "The New Saints",
+          "team1_country": "Wales",
+          "team2": "Shkëndija",
+          "team2_country": "North Macedonia",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Iberia 1999",
+          "team1_country": "Georgia",
+          "team2": "Malmö FF",
+          "team2_country": "Sweden",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "FCI Levadia",
+          "team1_country": "Estonia",
+          "team2": "RFS",
+          "team2_country": "Latvia",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Drita",
+          "team1_country": "Kosovo",
+          "team2": "Differdange 03",
+          "team2_country": "Luxembourg",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Víkingur Gøta",
+          "team1_country": "Faroe Islands",
+          "team2": "Lincoln Red Imps",
+          "team2_country": "Gibraltar",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Egnatia",
+          "team1_country": "Albania",
+          "team2": "Breiðablik",
+          "team2_country": "Iceland",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            5
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Shelbourne",
+          "team1_country": "Republic of Ireland",
+          "team2": "Linfield",
+          "team2_country": "Northern Ireland",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "FCSB",
+          "team1_country": "Romania",
+          "team2": "Inter Club d'Escaldes",
+          "team2_country": "Andorra",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Virtus",
+          "team1_country": "San Marino",
+          "team2": "Zrinjski Mostar",
+          "team2_country": "Bosnia and Herzegovina",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Olimpija Ljubljana",
+          "team1_country": "Slovenia",
+          "team2": "Kairat",
+          "team2_country": "Kazakhstan",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Noah",
+          "team1_country": "Armenia",
+          "team2": "Budućnost Podgorica",
+          "team2_country": "Montenegro",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Ludogorets Razgrad",
+          "team1_country": "Bulgaria",
+          "team2": "Dinamo Minsk",
+          "team2_country": "Belarus",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "Q2": [
+        {
+          "team1": "RFS",
+          "team1_country": "Latvia",
+          "team2": "Malmö FF",
+          "team2_country": "Sweden",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            4
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Hamrun Spartans",
+          "team1_country": "Malta",
+          "team2": "Dynamo Kyiv",
+          "team2_country": "Ukraine",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Pafos",
+          "team1_country": "Cyprus",
+          "team2": "Maccabi Tel Aviv",
+          "team2_country": "Israel",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Lincoln Red Imps",
+          "team1_country": "Gibraltar",
+          "team2": "Red Star Belgrade",
+          "team2_country": "Serbia",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            5
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Noah",
+          "team1_country": "Armenia",
+          "team2": "Ferencváros",
+          "team2_country": "Hungary",
+          "winner": "team2",
+          "aggregate": [
+            4,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Lech Poznań",
+          "team1_country": "Poland",
+          "team2": "Breiðablik",
+          "team2_country": "Iceland",
+          "winner": "team1",
+          "aggregate": [
+            8,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            7,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Copenhagen",
+          "team1_country": "Denmark",
+          "team2": "Drita",
+          "team2_country": "Kosovo",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Rijeka",
+          "team1_country": "Croatia",
+          "team2": "Ludogorets Razgrad",
+          "team2_country": "Bulgaria",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            3
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Shkëndija",
+          "team1_country": "North Macedonia",
+          "team2": "FCSB",
+          "team2_country": "Romania",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Slovan Bratislava",
+          "team1_country": "Slovakia",
+          "team2": "Zrinjski Mostar",
+          "team2_country": "Bosnia and Herzegovina",
+          "winner": "team1",
+          "aggregate": [
+            6,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            4,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Shelbourne",
+          "team1_country": "Republic of Ireland",
+          "team2": "Qarabağ",
+          "team2_country": "Azerbaijan",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "KuPS",
+          "team1_country": "Finland",
+          "team2": "Kairat",
+          "team2_country": "Kazakhstan",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Brann",
+          "team1_country": "Norway",
+          "team2": "Red Bull Salzburg",
+          "team2_country": "Austria",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            4
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Viktoria Plzeň",
+          "team1_country": "Czech Republic",
+          "team2": "Servette",
+          "team2_country": "Switzerland",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Rangers",
+          "team1_country": "Scotland",
+          "team2": "Panathinaikos",
+          "team2_country": "Greece",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "Q3": [
+        {
+          "team1": "Malmö FF",
+          "team1_country": "Sweden",
+          "team2": "Copenhagen",
+          "team2_country": "Denmark",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            5
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Kairat",
+          "team1_country": "Kazakhstan",
+          "team2": "Slovan Bratislava",
+          "team2_country": "Slovakia",
+          "winner": "team1",
+          "aggregate": [
+            1,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            4,
+            3
+          ],
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Lech Poznań",
+          "team1_country": "Poland",
+          "team2": "Red Star Belgrade",
+          "team2_country": "Serbia",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Ludogorets Razgrad",
+          "team1_country": "Bulgaria",
+          "team2": "Ferencváros",
+          "team2_country": "Hungary",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Dynamo Kyiv",
+          "team1_country": "Ukraine",
+          "team2": "Pafos",
+          "team2_country": "Cyprus",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Shkëndija",
+          "team1_country": "North Macedonia",
+          "team2": "Qarabağ",
+          "team2_country": "Azerbaijan",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            5
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Red Bull Salzburg",
+          "team1_country": "Austria",
+          "team2": "Club Brugge",
+          "team2_country": "Belgium",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Rangers",
+          "team1_country": "Scotland",
+          "team2": "Viktoria Plzeň",
+          "team2_country": "Czech Republic",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Nice",
+          "team1_country": "France",
+          "team2": "Benfica",
+          "team2_country": "Portugal",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Feyenoord",
+          "team1_country": "Netherlands",
+          "team2": "Fenerbahçe",
+          "team2_country": "Turkey",
+          "winner": "team2",
+          "aggregate": [
+            4,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            5
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "PO": [
+        {
+          "team1": "Ferencváros",
+          "team1_country": "Hungary",
+          "team2": "Qarabağ",
+          "team2_country": "Azerbaijan",
+          "winner": "team2",
+          "aggregate": [
+            4,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Red Star Belgrade",
+          "team1_country": "Serbia",
+          "team2": "Pafos",
+          "team2_country": "Cyprus",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Bodø/Glimt",
+          "team1_country": "Norway",
+          "team2": "Sturm Graz",
+          "team2_country": "Austria",
+          "winner": "team1",
+          "aggregate": [
+            6,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            5,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Celtic",
+          "team1_country": "Scotland",
+          "team2": "Kairat",
+          "team2_country": "Kazakhstan",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            2,
+            3
+          ],
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            0
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Basel",
+          "team1_country": "Switzerland",
+          "team2": "Copenhagen",
+          "team2_country": "Denmark",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Fenerbahçe",
+          "team1_country": "Turkey",
+          "team2": "Benfica",
+          "team2_country": "Portugal",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Rangers",
+          "team1_country": "Scotland",
+          "team2": "Club Brugge",
+          "team2_country": "Belgium",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            9
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            6
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ]
+    },
+    "league_phase": [
+      {
+        "position": 1,
+        "team": "Arsenal",
+        "country": "England",
+        "W": 8,
+        "D": 0,
+        "L": 0
+      },
+      {
+        "position": 2,
+        "team": "Bayern Munich",
+        "country": "Germany",
+        "W": 7,
+        "D": 0,
+        "L": 1
+      },
+      {
+        "position": 3,
+        "team": "Liverpool",
+        "country": "England",
+        "W": 6,
+        "D": 0,
+        "L": 2
+      },
+      {
+        "position": 4,
+        "team": "Tottenham Hotspur",
+        "country": "England",
+        "W": 5,
+        "D": 2,
+        "L": 1
+      },
+      {
+        "position": 5,
+        "team": "Barcelona",
+        "country": "Spain",
+        "W": 5,
+        "D": 1,
+        "L": 2
+      },
+      {
+        "position": 6,
+        "team": "Chelsea",
+        "country": "England",
+        "W": 5,
+        "D": 1,
+        "L": 2
+      },
+      {
+        "position": 7,
+        "team": "Sporting CP",
+        "country": "Portugal",
+        "W": 5,
+        "D": 1,
+        "L": 2
+      },
+      {
+        "position": 8,
+        "team": "Manchester City",
+        "country": "England",
+        "W": 5,
+        "D": 1,
+        "L": 2
+      },
+      {
+        "position": 9,
+        "team": "Real Madrid",
+        "country": "Spain",
+        "W": 5,
+        "D": 0,
+        "L": 3
+      },
+      {
+        "position": 10,
+        "team": "Inter Milan",
+        "country": "Italy",
+        "W": 5,
+        "D": 0,
+        "L": 3
+      },
+      {
+        "position": 11,
+        "team": "Paris Saint-Germain",
+        "country": "France",
+        "W": 4,
+        "D": 2,
+        "L": 2
+      },
+      {
+        "position": 12,
+        "team": "Newcastle United",
+        "country": "England",
+        "W": 4,
+        "D": 2,
+        "L": 2
+      },
+      {
+        "position": 13,
+        "team": "Juventus",
+        "country": "Italy",
+        "W": 3,
+        "D": 4,
+        "L": 1
+      },
+      {
+        "position": 14,
+        "team": "Atlético Madrid",
+        "country": "Spain",
+        "W": 4,
+        "D": 1,
+        "L": 3
+      },
+      {
+        "position": 15,
+        "team": "Atalanta",
+        "country": "Italy",
+        "W": 4,
+        "D": 1,
+        "L": 3
+      },
+      {
+        "position": 16,
+        "team": "Bayer Leverkusen",
+        "country": "Germany",
+        "W": 3,
+        "D": 3,
+        "L": 2
+      },
+      {
+        "position": 17,
+        "team": "Borussia Dortmund",
+        "country": "Germany",
+        "W": 3,
+        "D": 2,
+        "L": 3
+      },
+      {
+        "position": 18,
+        "team": "Olympiacos",
+        "country": "Greece",
+        "W": 3,
+        "D": 2,
+        "L": 3
+      },
+      {
+        "position": 19,
+        "team": "Club Brugge",
+        "country": "Belgium",
+        "W": 3,
+        "D": 1,
+        "L": 4
+      },
+      {
+        "position": 20,
+        "team": "Galatasaray",
+        "country": "Turkey",
+        "W": 3,
+        "D": 1,
+        "L": 4
+      },
+      {
+        "position": 21,
+        "team": "Monaco",
+        "country": "France",
+        "W": 2,
+        "D": 4,
+        "L": 2
+      },
+      {
+        "position": 22,
+        "team": "Qarabağ",
+        "country": "Azerbaijan",
+        "W": 3,
+        "D": 1,
+        "L": 4
+      },
+      {
+        "position": 23,
+        "team": "Bodø/Glimt",
+        "country": "Norway",
+        "W": 2,
+        "D": 3,
+        "L": 3
+      },
+      {
+        "position": 24,
+        "team": "Benfica",
+        "country": "Portugal",
+        "W": 3,
+        "D": 0,
+        "L": 5
+      },
+      {
+        "position": 25,
+        "team": "Marseille",
+        "country": "France",
+        "W": 3,
+        "D": 0,
+        "L": 5
+      },
+      {
+        "position": 26,
+        "team": "Pafos",
+        "country": "Cyprus",
+        "W": 2,
+        "D": 3,
+        "L": 3
+      },
+      {
+        "position": 27,
+        "team": "Union Saint-Gilloise",
+        "country": "Belgium",
+        "W": 3,
+        "D": 0,
+        "L": 5
+      },
+      {
+        "position": 28,
+        "team": "PSV Eindhoven",
+        "country": "Netherlands",
+        "W": 2,
+        "D": 2,
+        "L": 4
+      },
+      {
+        "position": 29,
+        "team": "Athletic Bilbao",
+        "country": "Spain",
+        "W": 2,
+        "D": 2,
+        "L": 4
+      },
+      {
+        "position": 30,
+        "team": "Napoli",
+        "country": "Italy",
+        "W": 2,
+        "D": 2,
+        "L": 4
+      },
+      {
+        "position": 31,
+        "team": "Copenhagen",
+        "country": "Denmark",
+        "W": 2,
+        "D": 2,
+        "L": 4
+      },
+      {
+        "position": 32,
+        "team": "Ajax",
+        "country": "Netherlands",
+        "W": 2,
+        "D": 0,
+        "L": 6
+      },
+      {
+        "position": 33,
+        "team": "Eintracht Frankfurt",
+        "country": "Germany",
+        "W": 1,
+        "D": 1,
+        "L": 6
+      },
+      {
+        "position": 34,
+        "team": "Slavia Prague",
+        "country": "Czech Republic",
+        "W": 0,
+        "D": 3,
+        "L": 5
+      },
+      {
+        "position": 35,
+        "team": "Villarreal",
+        "country": "Spain",
+        "W": 0,
+        "D": 1,
+        "L": 7
+      },
+      {
+        "position": 36,
+        "team": "Kairat",
+        "country": "Kazakhstan",
+        "W": 0,
+        "D": 1,
+        "L": 7
+      }
+    ],
+    "knockout": {
+      "KPO": [
+        {
+          "team1": "Monaco",
+          "team1_country": "France",
+          "team2": "Paris Saint-Germain",
+          "team2_country": "France",
+          "winner": "team2",
+          "aggregate": [
+            4,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Galatasaray",
+          "team1_country": "Turkey",
+          "team2": "Juventus",
+          "team2_country": "Italy",
+          "winner": "team1",
+          "aggregate": [
+            7,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            5,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            3
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Benfica",
+          "team1_country": "Portugal",
+          "team2": "Real Madrid",
+          "team2_country": "Spain",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Borussia Dortmund",
+          "team1_country": "Germany",
+          "team2": "Atalanta",
+          "team2_country": "Italy",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Qarabağ",
+          "team1_country": "Azerbaijan",
+          "team2": "Newcastle United",
+          "team2_country": "England",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            9
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            6
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Club Brugge",
+          "team1_country": "Belgium",
+          "team2": "Atlético Madrid",
+          "team2_country": "Spain",
+          "winner": "team2",
+          "aggregate": [
+            4,
+            7
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Bodø/Glimt",
+          "team1_country": "Norway",
+          "team2": "Inter Milan",
+          "team2_country": "Italy",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Olympiacos",
+          "team1_country": "Greece",
+          "team2": "Bayer Leverkusen",
+          "team2_country": "Germany",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "R16": [
+        {
+          "team1": "Paris Saint-Germain",
+          "team1_country": "France",
+          "team2": "Chelsea",
+          "team2_country": "England",
+          "winner": "team1",
+          "aggregate": [
+            8,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            5,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Galatasaray",
+          "team1_country": "Turkey",
+          "team2": "Liverpool",
+          "team2_country": "England",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Real Madrid",
+          "team1_country": "Spain",
+          "team2": "Manchester City",
+          "team2_country": "England",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Atalanta",
+          "team1_country": "Italy",
+          "team2": "Bayern Munich",
+          "team2_country": "Germany",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            10
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            6
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Newcastle United",
+          "team1_country": "England",
+          "team2": "Barcelona",
+          "team2_country": "Spain",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            8
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            7
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Atlético Madrid",
+          "team1_country": "Spain",
+          "team2": "Tottenham Hotspur",
+          "team2_country": "England",
+          "winner": "team1",
+          "aggregate": [
+            7,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            5,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Bodø/Glimt",
+          "team1_country": "Norway",
+          "team2": "Sporting CP",
+          "team2_country": "Portugal",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            5
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Bayer Leverkusen",
+          "team1_country": "Germany",
+          "team2": "Arsenal",
+          "team2_country": "England",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "QF": [
+        {
+          "team1": "Paris Saint-Germain",
+          "team1_country": "France",
+          "team2": "Liverpool",
+          "team2_country": "England",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Real Madrid",
+          "team1_country": "Spain",
+          "team2": "Bayern Munich",
+          "team2_country": "Germany",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": null,
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": false
+        },
+        {
+          "team1": "Barcelona",
+          "team1_country": "Spain",
+          "team2": "Atlético Madrid",
+          "team2_country": "Spain",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Sporting CP",
+          "team1_country": "Portugal",
+          "team2": "Arsenal",
+          "team2_country": "England",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": null,
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": false
+        }
+      ],
+      "SF": []
+    }
+  },
+  "uel": {
+    "qualifying": {
+      "Q1": [
+        {
+          "team1": "Shakhtar Donetsk",
+          "team1_country": "Ukraine",
+          "team2": "Ilves",
+          "team2_country": "Finland",
+          "winner": "team1",
+          "aggregate": [
+            6,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            6,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Sheriff Tiraspol",
+          "team1_country": "Moldova",
+          "team2": "Prishtina",
+          "team2_country": "Kosovo",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            4,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Spartak Trnava",
+          "team1_country": "Slovakia",
+          "team2": "BK Häcken",
+          "team2_country": "Sweden",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Sabah",
+          "team1_country": "Azerbaijan",
+          "team2": "Celje",
+          "team2_country": "Slovenia",
+          "winner": "team2",
+          "aggregate": [
+            5,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            3
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Legia Warsaw",
+          "team1_country": "Poland",
+          "team2": "Aktobe",
+          "team2_country": "Kazakhstan",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Levski Sofia",
+          "team1_country": "Bulgaria",
+          "team2": "Hapoel Be'er Sheva",
+          "team2_country": "Israel",
+          "winner": "team1",
+          "aggregate": [
+            1,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            3,
+            1
+          ],
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "AEK Larnaca",
+          "team1_country": "Cyprus",
+          "team2": "Partizan",
+          "team2_country": "Serbia",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            6,
+            5
+          ],
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Paks",
+          "team1_country": "Hungary",
+          "team2": "CFR Cluj",
+          "team2_country": "Romania",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "Q2": [
+        {
+          "team1": "Lugano",
+          "team1_country": "Switzerland",
+          "team2": "CFR Cluj",
+          "team2_country": "Romania",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Celje",
+          "team1_country": "Slovenia",
+          "team2": "AEK Larnaca",
+          "team2_country": "Cyprus",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Levski Sofia",
+          "team1_country": "Bulgaria",
+          "team2": "Braga",
+          "team2_country": "Portugal",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Baník Ostrava",
+          "team1_country": "Czech Republic",
+          "team2": "Legia Warsaw",
+          "team2_country": "Poland",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Anderlecht",
+          "team1_country": "Belgium",
+          "team2": "BK Häcken",
+          "team2_country": "Sweden",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            2,
+            4
+          ],
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Sheriff Tiraspol",
+          "team1_country": "Moldova",
+          "team2": "Utrecht",
+          "team2_country": "Netherlands",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            7
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Midtjylland",
+          "team1_country": "Denmark",
+          "team2": "Hibernian",
+          "team2_country": "Scotland",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Beşiktaş",
+          "team1_country": "Turkey",
+          "team2": "Shakhtar Donetsk",
+          "team2_country": "Ukraine",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            4
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "Q3": [
+        {
+          "team1": "Lincoln Red Imps",
+          "team1_country": "Gibraltar",
+          "team2": "Noah",
+          "team2_country": "Armenia",
+          "winner": "team1",
+          "aggregate": [
+            1,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            6,
+            5
+          ],
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            0
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Rijeka",
+          "team1_country": "Croatia",
+          "team2": "Shelbourne",
+          "team2_country": "Republic of Ireland",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "RFS",
+          "team1_country": "Latvia",
+          "team2": "KuPS",
+          "team2_country": "Finland",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Hamrun Spartans",
+          "team1_country": "Malta",
+          "team2": "Maccabi Tel Aviv",
+          "team2_country": "Israel",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Zrinjski Mostar",
+          "team1_country": "Bosnia and Herzegovina",
+          "team2": "Breiðablik",
+          "team2_country": "Iceland",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "FCSB",
+          "team1_country": "Romania",
+          "team2": "Drita",
+          "team2_country": "Kosovo",
+          "winner": "team1",
+          "aggregate": [
+            6,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "AEK Larnaca",
+          "team1_country": "Cyprus",
+          "team2": "Legia Warsaw",
+          "team2_country": "Poland",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            4,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Fredrikstad",
+          "team1_country": "Norway",
+          "team2": "Midtjylland",
+          "team2_country": "Denmark",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "CFR Cluj",
+          "team1_country": "Romania",
+          "team2": "Braga",
+          "team2_country": "Portugal",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "PAOK",
+          "team1_country": "Greece",
+          "team2": "Wolfsberger AC",
+          "team2_country": "Austria",
+          "winner": "team1",
+          "aggregate": [
+            1,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Servette",
+          "team1_country": "Switzerland",
+          "team2": "Utrecht",
+          "team2_country": "Netherlands",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "BK Häcken",
+          "team1_country": "Sweden",
+          "team2": "Brann",
+          "team2_country": "Norway",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Panathinaikos",
+          "team1_country": "Greece",
+          "team2": "Shakhtar Donetsk",
+          "team2_country": "Ukraine",
+          "winner": "team1",
+          "aggregate": [
+            0,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            4,
+            3
+          ],
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            0
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "PO": [
+        {
+          "team1": "Maccabi Tel Aviv",
+          "team1_country": "Israel",
+          "team2": "Dynamo Kyiv",
+          "team2_country": "Ukraine",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Shkëndija",
+          "team1_country": "North Macedonia",
+          "team2": "Ludogorets Razgrad",
+          "team2_country": "Bulgaria",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            4
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Slovan Bratislava",
+          "team1_country": "Slovakia",
+          "team2": "Young Boys",
+          "team2_country": "Switzerland",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Malmö FF",
+          "team1_country": "Sweden",
+          "team2": "Sigma Olomouc",
+          "team2_country": "Czech Republic",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Panathinaikos",
+          "team1_country": "Greece",
+          "team2": "Samsunspor",
+          "team2_country": "Turkey",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Aberdeen",
+          "team1_country": "Scotland",
+          "team2": "FCSB",
+          "team2_country": "Romania",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Lech Poznań",
+          "team1_country": "Poland",
+          "team2": "Genk",
+          "team2_country": "Belgium",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            5
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Midtjylland",
+          "team1_country": "Denmark",
+          "team2": "KuPS",
+          "team2_country": "Finland",
+          "winner": "team1",
+          "aggregate": [
+            6,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            4,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Lincoln Red Imps",
+          "team1_country": "Gibraltar",
+          "team2": "Braga",
+          "team2_country": "Portugal",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            9
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            4
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            5
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Zrinjski Mostar",
+          "team1_country": "Bosnia and Herzegovina",
+          "team2": "Utrecht",
+          "team2_country": "Netherlands",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Brann",
+          "team1_country": "Norway",
+          "team2": "AEK Larnaca",
+          "team2_country": "Cyprus",
+          "winner": "team1",
+          "aggregate": [
+            6,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            4,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Rijeka",
+          "team1_country": "Croatia",
+          "team2": "PAOK",
+          "team2_country": "Greece",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            5
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ]
+    },
+    "league_phase": [
+      {
+        "position": 1,
+        "team": "Lyon",
+        "country": "France",
+        "W": 7,
+        "D": 0,
+        "L": 1
+      },
+      {
+        "position": 2,
+        "team": "Aston Villa",
+        "country": "England",
+        "W": 7,
+        "D": 0,
+        "L": 1
+      },
+      {
+        "position": 3,
+        "team": "Midtjylland",
+        "country": "Denmark",
+        "W": 6,
+        "D": 1,
+        "L": 1
+      },
+      {
+        "position": 4,
+        "team": "Real Betis",
+        "country": "Spain",
+        "W": 5,
+        "D": 2,
+        "L": 1
+      },
+      {
+        "position": 5,
+        "team": "Porto",
+        "country": "Portugal",
+        "W": 5,
+        "D": 2,
+        "L": 1
+      },
+      {
+        "position": 6,
+        "team": "Braga",
+        "country": "Portugal",
+        "W": 5,
+        "D": 2,
+        "L": 1
+      },
+      {
+        "position": 7,
+        "team": "SC Freiburg",
+        "country": "Germany",
+        "W": 5,
+        "D": 2,
+        "L": 1
+      },
+      {
+        "position": 8,
+        "team": "Roma",
+        "country": "Italy",
+        "W": 5,
+        "D": 1,
+        "L": 2
+      },
+      {
+        "position": 9,
+        "team": "Genk",
+        "country": "Belgium",
+        "W": 5,
+        "D": 1,
+        "L": 2
+      },
+      {
+        "position": 10,
+        "team": "Bologna",
+        "country": "Italy",
+        "W": 4,
+        "D": 3,
+        "L": 1
+      },
+      {
+        "position": 11,
+        "team": "VfB Stuttgart",
+        "country": "Germany",
+        "W": 5,
+        "D": 0,
+        "L": 3
+      },
+      {
+        "position": 12,
+        "team": "Ferencváros",
+        "country": "Hungary",
+        "W": 4,
+        "D": 3,
+        "L": 1
+      },
+      {
+        "position": 13,
+        "team": "Nottingham Forest",
+        "country": "England",
+        "W": 4,
+        "D": 2,
+        "L": 2
+      },
+      {
+        "position": 14,
+        "team": "Viktoria Plzeň",
+        "country": "Czech Republic",
+        "W": 3,
+        "D": 5,
+        "L": 0
+      },
+      {
+        "position": 15,
+        "team": "Red Star Belgrade",
+        "country": "Serbia",
+        "W": 4,
+        "D": 2,
+        "L": 2
+      },
+      {
+        "position": 16,
+        "team": "Celta Vigo",
+        "country": "Spain",
+        "W": 4,
+        "D": 1,
+        "L": 3
+      },
+      {
+        "position": 17,
+        "team": "PAOK",
+        "country": "Greece",
+        "W": 3,
+        "D": 3,
+        "L": 2
+      },
+      {
+        "position": 18,
+        "team": "Lille",
+        "country": "France",
+        "W": 4,
+        "D": 0,
+        "L": 4
+      },
+      {
+        "position": 19,
+        "team": "Fenerbahçe",
+        "country": "Turkey",
+        "W": 3,
+        "D": 3,
+        "L": 2
+      },
+      {
+        "position": 20,
+        "team": "Panathinaikos",
+        "country": "Greece",
+        "W": 3,
+        "D": 3,
+        "L": 2
+      },
+      {
+        "position": 21,
+        "team": "Celtic",
+        "country": "Scotland",
+        "W": 3,
+        "D": 2,
+        "L": 3
+      },
+      {
+        "position": 22,
+        "team": "Ludogorets Razgrad",
+        "country": "Bulgaria",
+        "W": 3,
+        "D": 1,
+        "L": 4
+      },
+      {
+        "position": 23,
+        "team": "Dinamo Zagreb",
+        "country": "Croatia",
+        "W": 3,
+        "D": 1,
+        "L": 4
+      },
+      {
+        "position": 24,
+        "team": "Brann",
+        "country": "Norway",
+        "W": 2,
+        "D": 3,
+        "L": 3
+      },
+      {
+        "position": 25,
+        "team": "Young Boys",
+        "country": "Switzerland",
+        "W": 3,
+        "D": 0,
+        "L": 5
+      },
+      {
+        "position": 26,
+        "team": "Sturm Graz",
+        "country": "Austria",
+        "W": 2,
+        "D": 1,
+        "L": 5
+      },
+      {
+        "position": 27,
+        "team": "FCSB",
+        "country": "Romania",
+        "W": 2,
+        "D": 1,
+        "L": 5
+      },
+      {
+        "position": 28,
+        "team": "Go Ahead Eagles",
+        "country": "Netherlands",
+        "W": 2,
+        "D": 1,
+        "L": 5
+      },
+      {
+        "position": 29,
+        "team": "Feyenoord",
+        "country": "Netherlands",
+        "W": 2,
+        "D": 0,
+        "L": 6
+      },
+      {
+        "position": 30,
+        "team": "Basel",
+        "country": "Switzerland",
+        "W": 2,
+        "D": 0,
+        "L": 6
+      },
+      {
+        "position": 31,
+        "team": "Red Bull Salzburg",
+        "country": "Austria",
+        "W": 2,
+        "D": 0,
+        "L": 6
+      },
+      {
+        "position": 32,
+        "team": "Rangers",
+        "country": "Scotland",
+        "W": 1,
+        "D": 1,
+        "L": 6
+      },
+      {
+        "position": 33,
+        "team": "Nice",
+        "country": "France",
+        "W": 1,
+        "D": 0,
+        "L": 7
+      },
+      {
+        "position": 34,
+        "team": "Utrecht",
+        "country": "Netherlands",
+        "W": 0,
+        "D": 1,
+        "L": 7
+      },
+      {
+        "position": 35,
+        "team": "Malmö FF",
+        "country": "Sweden",
+        "W": 0,
+        "D": 1,
+        "L": 7
+      },
+      {
+        "position": 36,
+        "team": "Maccabi Tel Aviv",
+        "country": "Israel",
+        "W": 0,
+        "D": 1,
+        "L": 7
+      }
+    ],
+    "knockout": {
+      "KPO": [
+        {
+          "team1": "Ludogorets Razgrad",
+          "team1_country": "Bulgaria",
+          "team2": "Ferencváros",
+          "team2_country": "Hungary",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Panathinaikos",
+          "team1_country": "Greece",
+          "team2": "Viktoria Plzeň",
+          "team2_country": "Czech Republic",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            4,
+            3
+          ],
+          "leg1": [
+            2,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Dinamo Zagreb",
+          "team1_country": "Croatia",
+          "team2": "Genk",
+          "team2_country": "Belgium",
+          "winner": "team2",
+          "aggregate": [
+            4,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            3
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "PAOK",
+          "team1_country": "Greece",
+          "team2": "Celta Vigo",
+          "team2_country": "Spain",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Celtic",
+          "team1_country": "Scotland",
+          "team2": "VfB Stuttgart",
+          "team2_country": "Germany",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            4
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Fenerbahçe",
+          "team1_country": "Turkey",
+          "team2": "Nottingham Forest",
+          "team2_country": "England",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Brann",
+          "team1_country": "Norway",
+          "team2": "Bologna",
+          "team2_country": "Italy",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Lille",
+          "team1_country": "France",
+          "team2": "Red Star Belgrade",
+          "team2_country": "Serbia",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "R16": [
+        {
+          "team1": "Ferencváros",
+          "team1_country": "Hungary",
+          "team2": "Braga",
+          "team2_country": "Portugal",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Panathinaikos",
+          "team1_country": "Greece",
+          "team2": "Real Betis",
+          "team2_country": "Spain",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Genk",
+          "team1_country": "Belgium",
+          "team2": "SC Freiburg",
+          "team2_country": "Germany",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            5
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Celta Vigo",
+          "team1_country": "Spain",
+          "team2": "Lyon",
+          "team2_country": "France",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "VfB Stuttgart",
+          "team1_country": "Germany",
+          "team2": "Porto",
+          "team2_country": "Portugal",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Nottingham Forest",
+          "team1_country": "England",
+          "team2": "Midtjylland",
+          "team2_country": "Denmark",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            3,
+            0
+          ],
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Bologna",
+          "team1_country": "Italy",
+          "team2": "Roma",
+          "team2_country": "Italy",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            4,
+            3
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Lille",
+          "team1_country": "France",
+          "team2": "Aston Villa",
+          "team2_country": "England",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "QF": [
+        {
+          "team1": "Braga",
+          "team1_country": "Portugal",
+          "team2": "Real Betis",
+          "team2_country": "Spain",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": null,
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": false
+        },
+        {
+          "team1": "SC Freiburg",
+          "team1_country": "Germany",
+          "team2": "Celta Vigo",
+          "team2_country": "Spain",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": null,
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": false
+        },
+        {
+          "team1": "Porto",
+          "team1_country": "Portugal",
+          "team2": "Nottingham Forest",
+          "team2_country": "England",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": null,
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": false
+        },
+        {
+          "team1": "Bologna",
+          "team1_country": "Italy",
+          "team2": "Aston Villa",
+          "team2_country": "England",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": null,
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": false
+        }
+      ],
+      "SF": []
+    }
+  },
+  "uecl": {
+    "qualifying": {
+      "Q1": [
+        {
+          "team1": "NSÍ",
+          "team1_country": "Faroe Islands",
+          "team2": "HJK",
+          "team2_country": "Finland",
+          "winner": "team2",
+          "aggregate": [
+            4,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            4,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            5
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Torpedo Kutaisi",
+          "team1_country": "Georgia",
+          "team2": "Ordabasy",
+          "team2_country": "Kazakhstan",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            4,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Željezničar",
+          "team1_country": "Bosnia and Herzegovina",
+          "team2": "Koper",
+          "team2_country": "Slovenia",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "SJK",
+          "team1_country": "Finland",
+          "team2": "KÍ",
+          "team2_country": "Faroe Islands",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Nõmme Kalju",
+          "team1_country": "Estonia",
+          "team2": "Partizani",
+          "team2_country": "Albania",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Tre Fiori",
+          "team1_country": "San Marino",
+          "team2": "Pyunik",
+          "team2_country": "Armenia",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            5
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "St Patrick's Athletic",
+          "team1_country": "Republic of Ireland",
+          "team2": "Hegelmann",
+          "team2_country": "Lithuania",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Dečić",
+          "team1_country": "Montenegro",
+          "team2": "Sileks",
+          "team2_country": "North Macedonia",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Sutjeska",
+          "team1_country": "Montenegro",
+          "team2": "Dynamo Brest",
+          "team2_country": "Belarus",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Larne",
+          "team1_country": "Northern Ireland",
+          "team2": "Auda",
+          "team2_country": "Latvia",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            4,
+            2
+          ],
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Floriana",
+          "team1_country": "Malta",
+          "team2": "Haverfordwest County",
+          "team2_country": "Wales",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Torpedo-BelAZ Zhodino",
+          "team1_country": "Belarus",
+          "team2": "Rabotnicki",
+          "team2_country": "North Macedonia",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Magpies",
+          "team1_country": "Gibraltar",
+          "team2": "Paide Linnameeskond",
+          "team2_country": "Estonia",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            7
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Birkirkara",
+          "team1_country": "Malta",
+          "team2": "Petrocub Hîncești",
+          "team2_country": "Moldova",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Atlètic Club d'Escaldes",
+          "team1_country": "Andorra",
+          "team2": "F91 Dudelange",
+          "team2_country": "Luxembourg",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Valur",
+          "team1_country": "Iceland",
+          "team2": "Flora",
+          "team2_country": "Estonia",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Malisheva",
+          "team1_country": "Kosovo",
+          "team2": "Víkingur Reykjavík",
+          "team2_country": "Iceland",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            9
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            8
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Racing Union",
+          "team1_country": "Luxembourg",
+          "team2": "Dila Gori",
+          "team2_country": "Georgia",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Vllaznia",
+          "team1_country": "Albania",
+          "team2": "Daugavpils",
+          "team2_country": "Latvia",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            4,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Urartu",
+          "team1_country": "Armenia",
+          "team2": "Neman Grodno",
+          "team2_country": "Belarus",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Vardar",
+          "team1_country": "North Macedonia",
+          "team2": "La Fiorita",
+          "team2_country": "San Marino",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Kauno Žalgiris",
+          "team1_country": "Lithuania",
+          "team2": "Penybont",
+          "team2_country": "Wales",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "St Joseph's",
+          "team1_country": "Gibraltar",
+          "team2": "Cliftonville",
+          "team2_country": "Northern Ireland",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Borac Banja Luka",
+          "team1_country": "Bosnia and Herzegovina",
+          "team2": "FC Santa Coloma",
+          "team2_country": "Andorra",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            4
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "Q2": [
+        {
+          "team1": "Víkingur Gøta",
+          "team1_country": "Faroe Islands",
+          "team2": "N/A",
+          "team2_country": "",
+          "winner": "team1",
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": null,
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": null,
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": false
+        },
+        {
+          "team1": "Virtus",
+          "team1_country": "San Marino",
+          "team2": "N/A",
+          "team2_country": "",
+          "winner": "team1",
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": null,
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": null,
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": false
+        },
+        {
+          "team1": "FCI Levadia",
+          "team1_country": "Estonia",
+          "team2": "Iberia 1999",
+          "team2_country": "Georgia",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Žalgiris",
+          "team1_country": "Lithuania",
+          "team2": "Linfield",
+          "team2_country": "Northern Ireland",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "The New Saints",
+          "team1_country": "Wales",
+          "team2": "Differdange 03",
+          "team2_country": "Luxembourg",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Olimpija Ljubljana",
+          "team1_country": "Slovenia",
+          "team2": "Inter Club d'Escaldes",
+          "team2_country": "Andorra",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            4,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Budućnost Podgorica",
+          "team1_country": "Montenegro",
+          "team2": "Milsami Orhei",
+          "team2_country": "Moldova",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Dinamo Minsk",
+          "team1_country": "Belarus",
+          "team2": "Egnatia",
+          "team2_country": "Albania",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Dundee United",
+          "team1_country": "Scotland",
+          "team2": "UNA Strassen",
+          "team2_country": "Luxembourg",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Larne",
+          "team1_country": "Northern Ireland",
+          "team2": "Prishtina",
+          "team2_country": "Kosovo",
+          "winner": "team1",
+          "aggregate": [
+            1,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            5,
+            4
+          ],
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Košice",
+          "team1_country": "Slovakia",
+          "team2": "Neman Grodno",
+          "team2_country": "Belarus",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Vaduz",
+          "team1_country": "Liechtenstein",
+          "team2": "Dungannon Swifts",
+          "team2_country": "Northern Ireland",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            0
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Silkeborg",
+          "team1_country": "Denmark",
+          "team2": "KA",
+          "team2_country": "Iceland",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Rosenborg",
+          "team1_country": "Norway",
+          "team2": "Banga",
+          "team2_country": "Lithuania",
+          "winner": "team1",
+          "aggregate": [
+            7,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            5,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Atlètic Club d'Escaldes",
+          "team1_country": "Andorra",
+          "team2": "Dinamo City",
+          "team2_country": "Albania",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Austria Wien",
+          "team1_country": "Austria",
+          "team2": "Spaeri",
+          "team2_country": "Georgia",
+          "winner": "team1",
+          "aggregate": [
+            7,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            5,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Ballkani",
+          "team1_country": "Kosovo",
+          "team2": "Floriana",
+          "team2_country": "Malta",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            4,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Viking",
+          "team1_country": "Norway",
+          "team2": "Koper",
+          "team2_country": "Slovenia",
+          "winner": "team1",
+          "aggregate": [
+            12,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            7,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            5,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "AEK Athens",
+          "team1_country": "Greece",
+          "team2": "Hapoel Be'er Sheva",
+          "team2_country": "Israel",
+          "winner": "team1",
+          "aggregate": [
+            1,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Pyunik",
+          "team1_country": "Armenia",
+          "team2": "Győri ETO",
+          "team2_country": "Hungary",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Riga",
+          "team1_country": "Latvia",
+          "team2": "Dila Gori",
+          "team2_country": "Georgia",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Raków Częstochowa",
+          "team1_country": "Poland",
+          "team2": "Žilina",
+          "team2_country": "Slovakia",
+          "winner": "team1",
+          "aggregate": [
+            6,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Petrocub Hîncești",
+          "team1_country": "Moldova",
+          "team2": "Sabah",
+          "team2_country": "Azerbaijan",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Ararat-Armenia",
+          "team1_country": "Armenia",
+          "team2": "Universitatea Cluj",
+          "team2_country": "Romania",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Varaždin",
+          "team1_country": "Croatia",
+          "team2": "Santa Clara",
+          "team2_country": "Portugal",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Kauno Žalgiris",
+          "team1_country": "Lithuania",
+          "team2": "Valur",
+          "team2_country": "Iceland",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Paks",
+          "team1_country": "Hungary",
+          "team2": "Maribor",
+          "team2_country": "Slovenia",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Vllaznia",
+          "team1_country": "Albania",
+          "team2": "Víkingur Reykjavík",
+          "team2_country": "Iceland",
+          "winner": "team2",
+          "aggregate": [
+            4,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            4
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Hammarby IF",
+          "team1_country": "Sweden",
+          "team2": "Charleroi",
+          "team2_country": "Belgium",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Radnički 1923",
+          "team1_country": "Serbia",
+          "team2": "KÍ",
+          "team2_country": "Faroe Islands",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Novi Pazar",
+          "team1_country": "Serbia",
+          "team2": "Jagiellonia Białystok",
+          "team2_country": "Poland",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Polissya Zhytomyr",
+          "team1_country": "Ukraine",
+          "team2": "FC Santa Coloma",
+          "team2_country": "Andorra",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            4,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Vardar",
+          "team1_country": "North Macedonia",
+          "team2": "Lausanne-Sport",
+          "team2_country": "Switzerland",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            5
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "HB",
+          "team1_country": "Faroe Islands",
+          "team2": "Brøndby",
+          "team2_country": "Denmark",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Oleksandriya",
+          "team1_country": "Ukraine",
+          "team2": "Partizan",
+          "team2_country": "Serbia",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Hibernians",
+          "team1_country": "Malta",
+          "team2": "Spartak Trnava",
+          "team2_country": "Slovakia",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            7
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            5
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "St Patrick's Athletic",
+          "team1_country": "Republic of Ireland",
+          "team2": "Nõmme Kalju",
+          "team2_country": "Estonia",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Paide Linnameeskond",
+          "team1_country": "Estonia",
+          "team2": "AIK",
+          "team2_country": "Sweden",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            8
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            6
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Sarajevo",
+          "team1_country": "Bosnia and Herzegovina",
+          "team2": "Universitatea Craiova",
+          "team2_country": "Romania",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Aris Limassol",
+          "team1_country": "Cyprus",
+          "team2": "Puskás Akadémia",
+          "team2_country": "Hungary",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "St Joseph's",
+          "team1_country": "Gibraltar",
+          "team2": "Shamrock Rovers",
+          "team2_country": "Republic of Ireland",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            4
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Ilves",
+          "team1_country": "Finland",
+          "team2": "AZ",
+          "team2_country": "Netherlands",
+          "winner": "team2",
+          "aggregate": [
+            4,
+            8
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            4,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            5
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Zira",
+          "team1_country": "Azerbaijan",
+          "team2": "Hajduk Split",
+          "team2_country": "Croatia",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Arda",
+          "team1_country": "Bulgaria",
+          "team2": "HJK",
+          "team2_country": "Finland",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            4,
+            3
+          ],
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Aktobe",
+          "team1_country": "Kazakhstan",
+          "team2": "Sparta Prague",
+          "team2_country": "Czech Republic",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Astana",
+          "team1_country": "Kazakhstan",
+          "team2": "Zimbru Chișinău",
+          "team2_country": "Moldova",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Dečić",
+          "team1_country": "Montenegro",
+          "team2": "Rapid Wien",
+          "team2_country": "Austria",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Torpedo-BelAZ Zhodino",
+          "team1_country": "Belarus",
+          "team2": "Maccabi Haifa",
+          "team2_country": "Israel",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Araz-Naxçıvan",
+          "team1_country": "Azerbaijan",
+          "team2": "Aris",
+          "team2_country": "Greece",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Omonia",
+          "team1_country": "Cyprus",
+          "team2": "Torpedo Kutaisi",
+          "team2_country": "Georgia",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            4,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Cherno More",
+          "team1_country": "Bulgaria",
+          "team2": "İstanbul Başakşehir",
+          "team2_country": "Turkey",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Sutjeska",
+          "team1_country": "Montenegro",
+          "team2": "Beitar Jerusalem",
+          "team2_country": "Israel",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            7
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            5
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "Q3": [
+        {
+          "team1": "Olimpija Ljubljana",
+          "team1_country": "Slovenia",
+          "team2": "Egnatia",
+          "team2_country": "Albania",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            4,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Milsami Orhei",
+          "team1_country": "Moldova",
+          "team2": "Virtus",
+          "team2_country": "San Marino",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Differdange 03",
+          "team1_country": "Luxembourg",
+          "team2": "FCI Levadia",
+          "team2_country": "Estonia",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            1
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Víkingur Gøta",
+          "team1_country": "Faroe Islands",
+          "team2": "Linfield",
+          "team2_country": "Northern Ireland",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Rapid Wien",
+          "team1_country": "Austria",
+          "team2": "Dundee United",
+          "team2_country": "Scotland",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            5,
+            4
+          ],
+          "leg1": [
+            2,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Sparta Prague",
+          "team1_country": "Czech Republic",
+          "team2": "Ararat-Armenia",
+          "team2_country": "Armenia",
+          "winner": "team1",
+          "aggregate": [
+            6,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            4,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "AZ",
+          "team1_country": "Netherlands",
+          "team2": "Vaduz",
+          "team2_country": "Liechtenstein",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Lugano",
+          "team1_country": "Switzerland",
+          "team2": "Celje",
+          "team2_country": "Slovenia",
+          "winner": "team2",
+          "aggregate": [
+            4,
+            7
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            5
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            4,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "KÍ",
+          "team1_country": "Faroe Islands",
+          "team2": "Neman Grodno",
+          "team2_country": "Belarus",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            4,
+            5
+          ],
+          "leg1": [
+            2,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Riga",
+          "team1_country": "Latvia",
+          "team2": "Beitar Jerusalem",
+          "team2_country": "Israel",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Víkingur Reykjavík",
+          "team1_country": "Iceland",
+          "team2": "Brøndby",
+          "team2_country": "Denmark",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Hajduk Split",
+          "team1_country": "Croatia",
+          "team2": "Dinamo City",
+          "team2_country": "Albania",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            3
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Anderlecht",
+          "team1_country": "Belgium",
+          "team2": "Sheriff Tiraspol",
+          "team2_country": "Moldova",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Lausanne-Sport",
+          "team1_country": "Switzerland",
+          "team2": "Astana",
+          "team2_country": "Kazakhstan",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Larne",
+          "team1_country": "Northern Ireland",
+          "team2": "Santa Clara",
+          "team2_country": "Portugal",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Aris Limassol",
+          "team1_country": "Cyprus",
+          "team2": "AEK Athens",
+          "team2_country": "Greece",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            3
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Viking",
+          "team1_country": "Norway",
+          "team2": "İstanbul Başakşehir",
+          "team2_country": "Turkey",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Araz-Naxçıvan",
+          "team1_country": "Azerbaijan",
+          "team2": "Omonia",
+          "team2_country": "Cyprus",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            9
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            4
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            5
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Ballkani",
+          "team1_country": "Kosovo",
+          "team2": "Shamrock Rovers",
+          "team2_country": "Republic of Ireland",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Raków Częstochowa",
+          "team1_country": "Poland",
+          "team2": "Maccabi Haifa",
+          "team2_country": "Israel",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "AIK",
+          "team1_country": "Sweden",
+          "team2": "Győri ETO",
+          "team2_country": "Hungary",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Universitatea Craiova",
+          "team1_country": "Romania",
+          "team2": "Spartak Trnava",
+          "team2_country": "Slovakia",
+          "winner": "team1",
+          "aggregate": [
+            6,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            4
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Polissya Zhytomyr",
+          "team1_country": "Ukraine",
+          "team2": "Paks",
+          "team2_country": "Hungary",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Levski Sofia",
+          "team1_country": "Bulgaria",
+          "team2": "Sabah",
+          "team2_country": "Azerbaijan",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Silkeborg",
+          "team1_country": "Denmark",
+          "team2": "Jagiellonia Białystok",
+          "team2_country": "Poland",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Partizan",
+          "team1_country": "Serbia",
+          "team2": "Hibernian",
+          "team2_country": "Scotland",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Baník Ostrava",
+          "team1_country": "Czech Republic",
+          "team2": "Austria Wien",
+          "team2_country": "Austria",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            4,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Rosenborg",
+          "team1_country": "Norway",
+          "team2": "Hammarby IF",
+          "team2_country": "Sweden",
+          "winner": "team1",
+          "aggregate": [
+            1,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "St Patrick's Athletic",
+          "team1_country": "Republic of Ireland",
+          "team2": "Beşiktaş",
+          "team2_country": "Turkey",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            7
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            4
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Kauno Žalgiris",
+          "team1_country": "Lithuania",
+          "team2": "Arda",
+          "team2_country": "Bulgaria",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "PO": [
+        {
+          "team1": "Hamrun Spartans",
+          "team1_country": "Malta",
+          "team2": "RFS",
+          "team2_country": "Latvia",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Shelbourne",
+          "team1_country": "Republic of Ireland",
+          "team2": "Linfield",
+          "team2_country": "Northern Ireland",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Breiðablik",
+          "team1_country": "Iceland",
+          "team2": "Virtus",
+          "team2_country": "San Marino",
+          "winner": "team1",
+          "aggregate": [
+            5,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Drita",
+          "team1_country": "Kosovo",
+          "team2": "Differdange 03",
+          "team2_country": "Luxembourg",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Olimpija Ljubljana",
+          "team1_country": "Slovenia",
+          "team2": "Noah",
+          "team2_country": "Armenia",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            7
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            4
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Strasbourg",
+          "team1_country": "France",
+          "team2": "Brøndby",
+          "team2_country": "Denmark",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Jagiellonia Białystok",
+          "team1_country": "Poland",
+          "team2": "Dinamo City",
+          "team2_country": "Albania",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Shakhtar Donetsk",
+          "team1_country": "Ukraine",
+          "team2": "Servette",
+          "team2_country": "Switzerland",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Anderlecht",
+          "team1_country": "Belgium",
+          "team2": "AEK Athens",
+          "team2_country": "Greece",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "İstanbul Başakşehir",
+          "team1_country": "Turkey",
+          "team2": "Universitatea Craiova",
+          "team2_country": "Romania",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Crystal Palace",
+          "team1_country": "England",
+          "team2": "Fredrikstad",
+          "team2_country": "Norway",
+          "winner": "team1",
+          "aggregate": [
+            1,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Celje",
+          "team1_country": "Slovenia",
+          "team2": "Baník Ostrava",
+          "team2_country": "Czech Republic",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            0
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Raków Częstochowa",
+          "team1_country": "Poland",
+          "team2": "Arda",
+          "team2_country": "Bulgaria",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Hibernian",
+          "team1_country": "Scotland",
+          "team2": "Legia Warsaw",
+          "team2_country": "Poland",
+          "winner": "team2",
+          "aggregate": [
+            4,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            3,
+            3
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Levski Sofia",
+          "team1_country": "Bulgaria",
+          "team2": "AZ",
+          "team2_country": "Netherlands",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Polissya Zhytomyr",
+          "team1_country": "Ukraine",
+          "team2": "Fiorentina",
+          "team2_country": "Italy",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Győri ETO",
+          "team1_country": "Hungary",
+          "team2": "Rapid Wien",
+          "team2_country": "Austria",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Neman Grodno",
+          "team1_country": "Belarus",
+          "team2": "Rayo Vallecano",
+          "team2_country": "Spain",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Lausanne-Sport",
+          "team1_country": "Switzerland",
+          "team2": "Beşiktaş",
+          "team2_country": "Turkey",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Santa Clara",
+          "team1_country": "Portugal",
+          "team2": "Shamrock Rovers",
+          "team2_country": "Republic of Ireland",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Rosenborg",
+          "team1_country": "Norway",
+          "team2": "Mainz 05",
+          "team2_country": "Germany",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Sparta Prague",
+          "team1_country": "Czech Republic",
+          "team2": "Riga",
+          "team2_country": "Latvia",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "BK Häcken",
+          "team1_country": "Sweden",
+          "team2": "CFR Cluj",
+          "team2_country": "Romania",
+          "winner": "team1",
+          "aggregate": [
+            7,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            7,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Wolfsberger AC",
+          "team1_country": "Austria",
+          "team2": "Omonia",
+          "team2_country": "Cyprus",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": [
+            4,
+            5
+          ],
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ]
+    },
+    "league_phase": [
+      {
+        "position": 1,
+        "team": "Strasbourg",
+        "country": "France",
+        "W": 5,
+        "D": 1,
+        "L": 0
+      },
+      {
+        "position": 2,
+        "team": "Raków Częstochowa",
+        "country": "Poland",
+        "W": 4,
+        "D": 2,
+        "L": 0
+      },
+      {
+        "position": 3,
+        "team": "AEK Athens",
+        "country": "Greece",
+        "W": 4,
+        "D": 1,
+        "L": 1
+      },
+      {
+        "position": 4,
+        "team": "Sparta Prague",
+        "country": "Czech Republic",
+        "W": 4,
+        "D": 1,
+        "L": 1
+      },
+      {
+        "position": 5,
+        "team": "Rayo Vallecano",
+        "country": "Spain",
+        "W": 4,
+        "D": 1,
+        "L": 1
+      },
+      {
+        "position": 6,
+        "team": "Shakhtar Donetsk",
+        "country": "Ukraine",
+        "W": 4,
+        "D": 1,
+        "L": 1
+      },
+      {
+        "position": 7,
+        "team": "Mainz 05",
+        "country": "Germany",
+        "W": 4,
+        "D": 1,
+        "L": 1
+      },
+      {
+        "position": 8,
+        "team": "AEK Larnaca",
+        "country": "Cyprus",
+        "W": 3,
+        "D": 3,
+        "L": 0
+      },
+      {
+        "position": 9,
+        "team": "Lausanne-Sport",
+        "country": "Switzerland",
+        "W": 3,
+        "D": 2,
+        "L": 1
+      },
+      {
+        "position": 10,
+        "team": "Crystal Palace",
+        "country": "England",
+        "W": 3,
+        "D": 1,
+        "L": 2
+      },
+      {
+        "position": 11,
+        "team": "Lech Poznań",
+        "country": "Poland",
+        "W": 3,
+        "D": 1,
+        "L": 2
+      },
+      {
+        "position": 12,
+        "team": "Samsunspor",
+        "country": "Turkey",
+        "W": 3,
+        "D": 1,
+        "L": 2
+      },
+      {
+        "position": 13,
+        "team": "Celje",
+        "country": "Slovenia",
+        "W": 3,
+        "D": 1,
+        "L": 2
+      },
+      {
+        "position": 14,
+        "team": "AZ",
+        "country": "Netherlands",
+        "W": 3,
+        "D": 1,
+        "L": 2
+      },
+      {
+        "position": 15,
+        "team": "Fiorentina",
+        "country": "Italy",
+        "W": 3,
+        "D": 0,
+        "L": 3
+      },
+      {
+        "position": 16,
+        "team": "Rijeka",
+        "country": "Croatia",
+        "W": 2,
+        "D": 3,
+        "L": 1
+      },
+      {
+        "position": 17,
+        "team": "Jagiellonia Białystok",
+        "country": "Poland",
+        "W": 2,
+        "D": 3,
+        "L": 1
+      },
+      {
+        "position": 18,
+        "team": "Omonia",
+        "country": "Cyprus",
+        "W": 2,
+        "D": 2,
+        "L": 2
+      },
+      {
+        "position": 19,
+        "team": "Noah",
+        "country": "Armenia",
+        "W": 2,
+        "D": 2,
+        "L": 2
+      },
+      {
+        "position": 20,
+        "team": "Drita",
+        "country": "Kosovo",
+        "W": 2,
+        "D": 2,
+        "L": 2
+      },
+      {
+        "position": 21,
+        "team": "KuPS",
+        "country": "Finland",
+        "W": 1,
+        "D": 4,
+        "L": 1
+      },
+      {
+        "position": 22,
+        "team": "Shkëndija",
+        "country": "North Macedonia",
+        "W": 2,
+        "D": 1,
+        "L": 3
+      },
+      {
+        "position": 23,
+        "team": "Zrinjski Mostar",
+        "country": "Bosnia and Herzegovina",
+        "W": 2,
+        "D": 1,
+        "L": 3
+      },
+      {
+        "position": 24,
+        "team": "Sigma Olomouc",
+        "country": "Czech Republic",
+        "W": 2,
+        "D": 1,
+        "L": 3
+      },
+      {
+        "position": 25,
+        "team": "Universitatea Craiova",
+        "country": "Romania",
+        "W": 2,
+        "D": 1,
+        "L": 3
+      },
+      {
+        "position": 26,
+        "team": "Lincoln Red Imps",
+        "country": "Gibraltar",
+        "W": 2,
+        "D": 1,
+        "L": 3
+      },
+      {
+        "position": 27,
+        "team": "Dynamo Kyiv",
+        "country": "Ukraine",
+        "W": 2,
+        "D": 0,
+        "L": 4
+      },
+      {
+        "position": 28,
+        "team": "Legia Warsaw",
+        "country": "Poland",
+        "W": 2,
+        "D": 0,
+        "L": 4
+      },
+      {
+        "position": 29,
+        "team": "Slovan Bratislava",
+        "country": "Slovakia",
+        "W": 2,
+        "D": 0,
+        "L": 4
+      },
+      {
+        "position": 30,
+        "team": "Breiðablik",
+        "country": "Iceland",
+        "W": 1,
+        "D": 2,
+        "L": 3
+      },
+      {
+        "position": 31,
+        "team": "Shamrock Rovers",
+        "country": "Republic of Ireland",
+        "W": 1,
+        "D": 1,
+        "L": 4
+      },
+      {
+        "position": 32,
+        "team": "BK Häcken",
+        "country": "Sweden",
+        "W": 0,
+        "D": 3,
+        "L": 3
+      },
+      {
+        "position": 33,
+        "team": "Hamrun Spartans",
+        "country": "Malta",
+        "W": 1,
+        "D": 0,
+        "L": 5
+      },
+      {
+        "position": 34,
+        "team": "Shelbourne",
+        "country": "Republic of Ireland",
+        "W": 0,
+        "D": 2,
+        "L": 4
+      },
+      {
+        "position": 35,
+        "team": "Aberdeen",
+        "country": "Scotland",
+        "W": 0,
+        "D": 2,
+        "L": 4
+      },
+      {
+        "position": 36,
+        "team": "Rapid Wien",
+        "country": "Austria",
+        "W": 0,
+        "D": 1,
+        "L": 5
+      }
+    ],
+    "knockout": {
+      "KPO": [
+        {
+          "team1": "KuPS",
+          "team1_country": "Finland",
+          "team2": "Lech Poznań",
+          "team2_country": "Poland",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Noah",
+          "team1_country": "Armenia",
+          "team2": "AZ",
+          "team2_country": "Netherlands",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Zrinjski Mostar",
+          "team1_country": "Bosnia and Herzegovina",
+          "team2": "Crystal Palace",
+          "team2_country": "England",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Jagiellonia Białystok",
+          "team1_country": "Poland",
+          "team2": "Fiorentina",
+          "team2_country": "Italy",
+          "winner": "team2",
+          "aggregate": [
+            4,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            4,
+            2
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Shkëndija",
+          "team1_country": "North Macedonia",
+          "team2": "Samsunspor",
+          "team2_country": "Turkey",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            5
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Drita",
+          "team1_country": "Kosovo",
+          "team2": "Celje",
+          "team2_country": "Slovenia",
+          "winner": "team2",
+          "aggregate": [
+            4,
+            6
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Sigma Olomouc",
+          "team1_country": "Czech Republic",
+          "team2": "Lausanne-Sport",
+          "team2_country": "Switzerland",
+          "winner": "team1",
+          "aggregate": [
+            3,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Omonia",
+          "team1_country": "Cyprus",
+          "team2": "Rijeka",
+          "team2_country": "Croatia",
+          "winner": "team2",
+          "aggregate": [
+            1,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "R16": [
+        {
+          "team1": "Lech Poznań",
+          "team1_country": "Poland",
+          "team2": "Shakhtar Donetsk",
+          "team2_country": "Ukraine",
+          "winner": "team2",
+          "aggregate": [
+            3,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "AZ",
+          "team1_country": "Netherlands",
+          "team2": "Sparta Prague",
+          "team2_country": "Czech Republic",
+          "winner": "team1",
+          "aggregate": [
+            6,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            4,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Crystal Palace",
+          "team1_country": "England",
+          "team2": "AEK Larnaca",
+          "team2_country": "Cyprus",
+          "winner": "team1",
+          "aggregate": [
+            2,
+            1
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": true,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Fiorentina",
+          "team1_country": "Italy",
+          "team2": "Raków Częstochowa",
+          "team2_country": "Poland",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            1
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Samsunspor",
+          "team1_country": "Turkey",
+          "team2": "Rayo Vallecano",
+          "team2_country": "Spain",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            3
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Celje",
+          "team1_country": "Slovenia",
+          "team2": "AEK Athens",
+          "team2_country": "Greece",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            4
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            2,
+            0
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Sigma Olomouc",
+          "team1_country": "Czech Republic",
+          "team2": "Mainz 05",
+          "team2_country": "Germany",
+          "winner": "team2",
+          "aggregate": [
+            0,
+            2
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            0,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Rijeka",
+          "team1_country": "Croatia",
+          "team2": "Strasbourg",
+          "team2_country": "France",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            1,
+            2
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            1
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "QF": [
+        {
+          "team1": "Shakhtar Donetsk",
+          "team1_country": "Ukraine",
+          "team2": "AZ",
+          "team2_country": "Netherlands",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": null,
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": false
+        },
+        {
+          "team1": "Crystal Palace",
+          "team1_country": "England",
+          "team2": "Fiorentina",
+          "team2_country": "Italy",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": null,
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": false
+        },
+        {
+          "team1": "Rayo Vallecano",
+          "team1_country": "Spain",
+          "team2": "AEK Athens",
+          "team2_country": "Greece",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": null,
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": false
+        },
+        {
+          "team1": "Mainz 05",
+          "team1_country": "Germany",
+          "team2": "Strasbourg",
+          "team2_country": "France",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": null,
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": false
+        }
+      ],
+      "SF": []
+    }
+  }
+}
