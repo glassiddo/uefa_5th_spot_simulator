@@ -1,8 +1,8 @@
-# UEFA 5th Spot Simulator
+# UEFA Extra UCL Spot Simulator
 
-Simulate remaining UEFA club-competition matches (UCL / UEL / UECL) and see how association coefficients change for the current season, including which two associations would earn the extra Champions League berth(s) ("performance spots", often referred to as the "5th spot").
+Simulate remaining UEFA club-competition matches (UCL / UEL / UECL) and see how association coefficients change for the current season. Intended to simulate which two associations would earn the extra Champions League direct qualification spot ("performance spots").
 
-Available in https://uefa-ucl-extra-spot-simulator.onrender.com/
+Available in https://uefa-ucl-extra-spot-simulator.onrender.com/ - if not opened recently, becomes idle (as it's free tier in Render), hence start might be slow.
 
 ## Run locally
 
@@ -34,4 +34,4 @@ python tests/test_engine.py
 
 - Built with Codex and Claude Code.
 - Development-only prompt/spec files and local reference materials (e.g. `CLAUDE.md`, `.claude/`, cached scrape output, PDFs) are intentionally not committed.
-- The repo includes a `data/results_snapshot.json` dataset; you can refresh locally by running `python backend/scraper.py` (writes `data/results_cache.json`, which stays uncommitted).
+- The repo includes a `data/results_snapshot.json` dataset which includes all the relevant results for computing the association coefficient and is based on Wikipedia. You can refresh locally by running `python backend/scraper.py` (writes `data/results_cache.json`).
