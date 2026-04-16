@@ -20,3 +20,7 @@ annex_d_uefa_regulations.pdf
 # Node (if ever added)
 node_modules/
 
+# Deployment / hosting config (keep private)
+render.yaml
+docs/
+.github/workflows/
