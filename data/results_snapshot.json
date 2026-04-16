@@ -3886,8 +3886,11 @@
           "team1_country": "Portugal",
           "team2": "Real Betis",
           "team2_country": "Spain",
-          "winner": null,
-          "aggregate": null,
+          "winner": "team1",
+          "aggregate": [
+            5,
+            3
+          ],
           "agg_aet": false,
           "agg_pens": null,
           "leg1": [
@@ -3896,18 +3899,24 @@
           ],
           "leg1_aet": false,
           "leg1_pens": null,
-          "leg2": null,
+          "leg2": [
+            4,
+            2
+          ],
           "leg2_aet": false,
           "leg2_pens": null,
-          "leg2_played": false
+          "leg2_played": true
         },
         {
           "team1": "SC Freiburg",
           "team1_country": "Germany",
           "team2": "Celta Vigo",
           "team2_country": "Spain",
-          "winner": null,
-          "aggregate": null,
+          "winner": "team1",
+          "aggregate": [
+            6,
+            1
+          ],
           "agg_aet": false,
           "agg_pens": null,
           "leg1": [
@@ -3916,18 +3925,24 @@
           ],
           "leg1_aet": false,
           "leg1_pens": null,
-          "leg2": null,
+          "leg2": [
+            3,
+            1
+          ],
           "leg2_aet": false,
           "leg2_pens": null,
-          "leg2_played": false
+          "leg2_played": true
         },
         {
           "team1": "Porto",
           "team1_country": "Portugal",
           "team2": "Nottingham Forest",
           "team2_country": "England",
-          "winner": null,
-          "aggregate": null,
+          "winner": "team2",
+          "aggregate": [
+            1,
+            2
+          ],
           "agg_aet": false,
           "agg_pens": null,
           "leg1": [
@@ -3936,18 +3951,24 @@
           ],
           "leg1_aet": false,
           "leg1_pens": null,
-          "leg2": null,
+          "leg2": [
+            0,
+            1
+          ],
           "leg2_aet": false,
           "leg2_pens": null,
-          "leg2_played": false
+          "leg2_played": true
         },
         {
           "team1": "Bologna",
           "team1_country": "Italy",
           "team2": "Aston Villa",
           "team2_country": "England",
-          "winner": null,
-          "aggregate": null,
+          "winner": "team2",
+          "aggregate": [
+            1,
+            7
+          ],
           "agg_aet": false,
           "agg_pens": null,
           "leg1": [
@@ -3956,13 +3977,51 @@
           ],
           "leg1_aet": false,
           "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "SF": [
+        {
+          "team1": "Braga",
+          "team1_country": "Portugal",
+          "team2": "SC Freiburg",
+          "team2_country": "Germany",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": null,
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": null,
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": false
+        },
+        {
+          "team1": "Nottingham Forest",
+          "team1_country": "England",
+          "team2": "Aston Villa",
+          "team2_country": "England",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": null,
+          "leg1_aet": false,
+          "leg1_pens": null,
           "leg2": null,
           "leg2_aet": false,
           "leg2_pens": null,
           "leg2_played": false
         }
-      ],
-      "SF": []
+      ]
     }
   },
   "uecl": {
@@ -8073,8 +8132,11 @@
           "team1_country": "Ukraine",
           "team2": "AZ",
           "team2_country": "Netherlands",
-          "winner": null,
-          "aggregate": null,
+          "winner": "team1",
+          "aggregate": [
+            5,
+            2
+          ],
           "agg_aet": false,
           "agg_pens": null,
           "leg1": [
@@ -8083,24 +8145,104 @@
           ],
           "leg1_aet": false,
           "leg1_pens": null,
-          "leg2": null,
+          "leg2": [
+            2,
+            2
+          ],
           "leg2_aet": false,
           "leg2_pens": null,
-          "leg2_played": false
+          "leg2_played": true
         },
         {
           "team1": "Crystal Palace",
           "team1_country": "England",
           "team2": "Fiorentina",
           "team2_country": "Italy",
-          "winner": null,
-          "aggregate": null,
+          "winner": "team1",
+          "aggregate": [
+            4,
+            2
+          ],
           "agg_aet": false,
           "agg_pens": null,
           "leg1": [
             3,
             0
           ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            2
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Rayo Vallecano",
+          "team1_country": "Spain",
+          "team2": "AEK Athens",
+          "team2_country": "Greece",
+          "winner": "team1",
+          "aggregate": [
+            4,
+            3
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            3,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            1,
+            3
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        },
+        {
+          "team1": "Mainz 05",
+          "team1_country": "Germany",
+          "team2": "Strasbourg",
+          "team2_country": "France",
+          "winner": "team2",
+          "aggregate": [
+            2,
+            4
+          ],
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": [
+            2,
+            0
+          ],
+          "leg1_aet": false,
+          "leg1_pens": null,
+          "leg2": [
+            0,
+            4
+          ],
+          "leg2_aet": false,
+          "leg2_pens": null,
+          "leg2_played": true
+        }
+      ],
+      "SF": [
+        {
+          "team1": "Shakhtar Donetsk",
+          "team1_country": "Ukraine",
+          "team2": "Crystal Palace",
+          "team2_country": "England",
+          "winner": null,
+          "aggregate": null,
+          "agg_aet": false,
+          "agg_pens": null,
+          "leg1": null,
           "leg1_aet": false,
           "leg1_pens": null,
           "leg2": null,
@@ -8111,36 +8253,13 @@
         {
           "team1": "Rayo Vallecano",
           "team1_country": "Spain",
-          "team2": "AEK Athens",
-          "team2_country": "Greece",
-          "winner": null,
-          "aggregate": null,
-          "agg_aet": false,
-          "agg_pens": null,
-          "leg1": [
-            3,
-            0
-          ],
-          "leg1_aet": false,
-          "leg1_pens": null,
-          "leg2": null,
-          "leg2_aet": false,
-          "leg2_pens": null,
-          "leg2_played": false
-        },
-        {
-          "team1": "Mainz 05",
-          "team1_country": "Germany",
           "team2": "Strasbourg",
           "team2_country": "France",
           "winner": null,
           "aggregate": null,
           "agg_aet": false,
           "agg_pens": null,
-          "leg1": [
-            2,
-            0
-          ],
+          "leg1": null,
           "leg1_aet": false,
           "leg1_pens": null,
           "leg2": null,
@@ -8148,8 +8267,7 @@
           "leg2_pens": null,
           "leg2_played": false
         }
-      ],
-      "SF": []
+      ]
     }
   }
 }
