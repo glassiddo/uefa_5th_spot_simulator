@@ -2063,7 +2063,10 @@
           "aggregate": null,
           "agg_aet": false,
           "agg_pens": null,
-          "leg1": null,
+          "leg1": [
+            1,
+            1
+          ],
           "leg1_aet": false,
           "leg1_pens": null,
           "leg2": null,
